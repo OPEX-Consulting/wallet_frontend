@@ -1,0 +1,102 @@
+.width {
+  width: 50px;
+}
+.linesvg {
+  fill: none;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  stroke-width: 3px;
+}
+.homelink {
+  color: #0087bf !important;
+}
+.op {
+  opacity: 0.5;
+}
+.svgpath {
+  fill: #fff;
+  opacity: 0.29;
+}
+.svgpath2 {
+  fill: #eee;
+  opacity: 0.3;
+}
+.svgpath3 {
+  fill: #fff;
+  opacity: 0.3;
+}
+.svgpath4 {
+  fill: url(#hiro-shape-grad02);
+}
+.svgpath5 {
+  fill: url(#hiro-shape-grad01);
+}
+.svgpathfill {
+  fill: #fff;
+}
+.svgpathfill2 {
+  fill: #ffdd6e;
+}
+.carouselvisible {
+  visibility: hidden;
+  height: 200px;
+}
+.boxstyle {
+  background: #4261bb;
+}
+.boxstyle2 {
+  background: #0087bf;
+}
+.boxstyle3 {
+  background: #077d9b;
+}
+.boxstyle4 {
+  background: #486bb1;
+}
+.boxme {
+  background: #486bb1;
+}
+.signin__button {
+  background-color: #0087bf;
+  width: 100px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 25px;
+  color: white;
+}
+
+/* Signin changes */
+.authstyle {
+  height: 80%;
+  top: 50px;
+}
+.signin__path {
+  fill: #f1f1f1;
+  opacity: 0.5;
+  isolation: isolate;
+}
+.signin__fill {
+  fill: #f1f1f1;
+}
+.signin__fill1 {
+  fill: #0088fe;
+}
+.signin__fill2 {
+  fill: #fee28a;
+}
+.signin__svg {
+  height: 100%;
+  z-index: 10;
+  top: -57px;
+}
+.signin__defs {
+  fill: url(#triangle-gradient);
+}
+.signin__btn {
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #0088fe;
+  border: none;
+  outline: none;
+  color: white;
+}

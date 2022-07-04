@@ -1,0 +1,40 @@
+@media screen and (max-width: 600px) {
+  .credit__form {
+    width: 100% !important;
+  }
+}
+.credit__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.credit__form {
+  width: 40%;
+}
+
+.credit__amount {
+  width: 35%;
+  background-color: rgb(36, 63, 121);
+  margin-right: 5px;
+}
+.credit__amount input {
+  background-color: rgb(247, 247, 253);
+  border: none;
+  border-bottom: 1px solid grey;
+  padding-left: 10px;
+}
+
+.credit__btn {
+  width: 40%;
+}
+.credit__btn button {
+  padding: 0px 5px;
+  border: none;
+  background-color: #6c56f9;
+  color: white;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 14px;
+}

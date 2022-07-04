@@ -1,0 +1,8 @@
+.creditSubagent__header {
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+}
+.subagent__amount {
+  margin-left: 20%;
+}

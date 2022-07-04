@@ -1,0 +1,2041 @@
+/* @media screen and (max-width: 600px) {
+  .agent__informationtop {
+    width: 100% !important;
+    background-color: #6c56f9 !important;
+  }
+  .agent__informationtop h2 {
+    text-align: center;
+  }
+  .agent__agentinfo1 {
+    width: 100% !important;
+  }
+  .agent__agentinformation {
+    width: 100% !important;
+  }
+} */
+@media screen and (max-width: 600px) {
+  .showagentinfo{
+    width: 100% !important;
+  }
+  .agent__agentinformationmain {
+    width: 100% !important;
+  }
+  .agent__informationtop{
+    width: 100% !important;
+  }
+  .agent__agentinformationcontainer {
+    width: 70% !important;
+  }
+  .agent__agentinformation{
+    width: 100% !important;
+  }
+}
+.agent {
+  width: 100%;
+  height: auto;
+}
+.agent__container {
+  width: 100%;
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  height: auto;
+  /* min-height: 130vh; */
+}
+.agent__left {
+  flex: 0.2;
+  height: auto;
+  /* background-color: #6c56f9; */
+  /* background-color: #e7e2e2; */
+  /* background-color: rgb(108, 86, 249); */
+}
+.agent__itemscontainer {
+  width: 100%;
+  padding: 25px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  /* border: 2px solid grey; */
+  margin-top: 50px;
+}
+.agent__items {
+  padding: 10px 15px;
+  height: 50px;
+  background-color: rgb(108, 86, 249);
+  width: 250px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  margin-top: 10px;
+}
+.agent__items:hover {
+  background-color: rgb(108, 86, 249, 0.7);
+  /* background-color: rgb(160, 153, 204, 0.7); */
+}
+.agent__itemsclients {
+  padding: 10px 15px;
+  height: auto;
+  background-color: rgb(108, 86, 249);
+  width: 250px;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+}
+.agent__agentrecord {
+  padding: 5px 0px;
+  height: auto;
+  background-color: rgb(108, 86, 249);
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3); */
+  margin-top: 0px;
+}
+.agent__users {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agentUsers {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* background-color: orange; */
+  padding: 5px 0px;
+  width: 100%;
+}
+.agentUsers span {
+  color: white;
+}
+.agent__down {
+  margin-left: 5px;
+  color: white;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+.agent__down:hover {
+  transform: translateY(5px);
+}
+.users__agent {
+  display: flex;
+  flex-direction: column;
+  /* background-color: orange; */
+  width: 200px;
+  align-items: flex-start;
+  justify-content: center;
+  height: auto;
+  position: relative;
+}
+.users__agent .agent__down {
+  /* color: red; */
+  margin-top: 5px;
+}
+.users {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  width: 250px;
+  align-items: flex-start;
+  justify-content: center;
+  height: auto;
+  position: relative;
+}
+.user__icon {
+  padding-top: 0px;
+  padding-right: 10px;
+  width: 25px;
+  height: 25px;
+  color: white;
+}
+.agent__icon {
+  width: 15px;
+  height: 15px;
+  color: white;
+}
+.agentUserToggle {
+  margin-top: 1px;
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+  padding-left: 10px;
+}
+.agent__agentsubnav {
+  padding-left: 20px;
+}
+.agentUserToggle span {
+  width: 100%;
+  padding-left: 25px;
+  padding-top: 5px;
+  color: #dbcbcb;
+  cursor: pointer;
+}
+.links {
+  margin-bottom: 5px;
+}
+.agentUserToggle span:hover {
+  color: white;
+}
+.agent__items span {
+  margin-left: 10px;
+  font-weight: 400;
+  color: white;
+}
+.myagent__right {
+  flex: 0.8;
+  height: auto;
+  background-color: #f3f3f3;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 0px;
+}
+.agent__rightcontainer {
+  width: 90%;
+  height: auto;
+  /* background-color: orange; */
+}
+.agent__rightcontainer h1 {
+  color: rgb(155, 153, 153);
+}
+.active {
+  background-color: #419feb;
+}
+.activecolor span {
+  color: white;
+}
+.verify__container {
+  width: 100%;
+  padding-top: 100px;
+}
+.verify__form {
+  width: 100%;
+}
+.verify__formbody {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px;
+  /* background-color: white; */
+}
+.verify__formbody button {
+  margin-top: 13px;
+  padding: 10px;
+  background-color: #6c56f9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+}
+.verify__formbody button:hover {
+  background-color: rgb(108, 86, 249, 0.7);
+}
+.verify__formbody label {
+  margin-bottom: 5px;
+}
+.verify__mail {
+  width: 100%;
+  background-color: white;
+}
+.verify__mail input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.agent__top {
+  width: 100%;
+  height: auto;
+  /* background-color: dodgerblue; */
+  /* border-radius: 25px; */
+  padding: 25px 0px;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: space-around; */
+}
+.agent__topcontent1 {
+  width: 23%;
+  height: 150px;
+  background-color: #6c56f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+  border-radius: 10px;
+  color: white;
+}
+.agent__topcontent2 {
+  width: 23%;
+  height: 150px;
+  background-color: #f356f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+  border-radius: 10px;
+  color: white;
+}
+.agent__topcontent3 {
+  width: 23%;
+  height: 150px;
+  background-color: #f7c744;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+  border-radius: 10px;
+  color: white;
+}
+.agent__topcontent4 {
+  width: 23%;
+  height: 150px;
+  background-color: #26a780;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0px;
+  border-radius: 10px;
+  color: white;
+}
+.agent__top span {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+.agent__bal {
+  background-color: white;
+  margin: 30px 0px;
+  margin-bottom: 100px;
+  padding: 5px;
+}
+.agent__serial {
+  font-size: 14px !important;
+}
+.agent__bal h6 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.agent__bal span {
+  font-weight: 800 !important;
+}
+
+.agentCenter {
+  width: 100%;
+  height: auto;
+  /* background-color: dodgerblue; */
+  padding: 25px 0px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.agentCenter h2 {
+  margin-left: 60px;
+  margin-bottom: 25px;
+  color: black;
+}
+.agentHeader {
+  margin-left: 0px !important;
+  margin-bottom: 25px;
+  color: gray !important;
+}
+.agentCenterHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  margin-bottom: 10px;
+}
+.agentCenterHeader h2 {
+  font-size: 16px;
+  margin-right: 100px;
+}
+.agentCenterHeader h3 {
+  font-size: 16px;
+  /* margin-right: 120px; */
+}
+.agentCenter__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0px !important;
+}
+.agentagent__th {
+  width: 25%;
+}
+
+.credit__recordcontaineragent {
+  display: none;
+}
+.show {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 0px 10px;
+  /* background-color: #f356f9; */
+}
+
+.credit__recordcontaineragent h2 {
+  /* margin-bottom: 20px; */
+  color: grey;
+  padding: 45px 0px;
+  padding-bottom: 60px;
+}
+.credit__recordmain {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+  /* background-color: #267ea7; */
+}
+.credit__recordothers1 {
+  margin-left: 10px;
+  /* background-color: orange; */
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.credit__recordothers1 h2 {
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px;
+}
+.credit__recordothers1 span {
+  font-size: 18px;
+  color: #267ea7 !important;
+}
+.credit__record h4 {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.credit__recordagent1 {
+  width: 25%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7;
+  padding: 20px 0px;
+}
+.credit__recordagent span {
+  font-size: 24px;
+  color: white;
+}
+.credit__recordagent span {
+  font-size: 30px;
+  color: white;
+}
+.credit__record3 span {
+  font-size: 30px;
+  color: white;
+}
+.credit__recordagent2 {
+  width: 25%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7;
+  padding: 20px 0px;
+}
+.credit__recordagent3 {
+  width: 25%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7;
+  padding: 20px 0px;
+}
+.agentcredit__creditagentimg1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(166, 230, 166);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agentcredit__creditagentimg2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(241, 207, 134);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agentcredit__creditagentimg3 {
+  width: 70px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(255, 221, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.agent__infocontainer {
+  width: 100%;
+  /* display: flex; */
+  flex-direction: column;
+  display: none;
+}
+.agent__infocontainer h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.agent__information {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 25px;
+  margin-left: 130px;
+}
+.agent__info1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin-left: 100px;
+  background-color: white;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.agent__info1 h3 {
+  width: 250px;
+  font-weight: 500;
+  /* margin-right: 10px; */
+  /* background-color: #419feb; */
+}
+.agent__info1 span {
+  width: 250px;
+  font-size: 14px;
+  /* background-color: #6c56f9; */
+}
+.agent__info1 button {
+  width: 100px;
+  background-color: #6c56f9;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+/* agent record */
+/* Agent Creditrecords styles */
+.agent__creditrecordmain {
+  display: none;
+}
+.agent__creditrecordcontainer {
+  width: 90%;
+  height: auto;
+}
+.agent__creditrecordcontainer h2 {
+  padding: 25px 0px;
+}
+.showcreditrecord {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+  /* background-color: #b2a2b3; */
+}
+
+.agent__credittop {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+.agent__credittop h2 {
+  font-size: 18px;
+}
+.agent__credittop h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.agent__credittopcontent1 {
+  width: 25%;
+  height: 130px;
+  background-color: #6c56f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: white;
+  padding: 10px 0px;
+}
+
+.agent__credittopcontent2 {
+  padding: 10px 0px;
+  width: 25%;
+  height: 130px;
+  background-color: #f356f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: white;
+}
+.agent__credittopcontent3 {
+  width: 25%;
+  height: 130px;
+  background-color: #f7c744;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: white;
+}
+.agent__credittopcontent4 {
+  width: 25%;
+  height: 130px;
+  background-color: #26a780;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 0px; */
+  border-radius: 10px;
+  color: white;
+}
+.agent__credittopcontent5 {
+  width: 15%;
+  height: 100px;
+  background-color: #267ea7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 0px; */
+  border-radius: 10px;
+  color: white;
+}
+.showcreditrecord {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+  /* background-color: #b2a2b3; */
+}
+
+/* Wallet Balance style*/
+
+.agent__walletbalancemain {
+  display: none;
+}
+.agent__walletbalancecontainer {
+  width: 90%;
+  height: auto;
+}
+.agent__walletbalancecontainer h2 {
+  padding: 25px 0px;
+}
+.agent__walletbalancetop {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+.agent__credittop h2 {
+  font-size: 18px;
+}
+.agent__credittop h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.agent__credittopcontent1 {
+  width: 25%;
+  height: 130px;
+  background-color: #6c56f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: white;
+  padding: 10px 0px;
+}
+
+.agent__credittopcontent2 {
+  padding: 10px 0px;
+  width: 25%;
+  height: 130px;
+  background-color: #f356f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: white;
+}
+.agent__credittopcontent3 {
+  width: 25%;
+  height: 130px;
+  background-color: #f7c744;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: white;
+}
+.agent__credittopcontent4 {
+  width: 25%;
+  height: 130px;
+  background-color: #26a780;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 0px; */
+  border-radius: 10px;
+  color: white;
+}
+.agent__credittopcontent5 {
+  width: 15%;
+  height: 100px;
+  background-color: #267ea7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 0px; */
+  border-radius: 10px;
+  color: white;
+}
+.showwalletbalance {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+}
+
+/* Wallet balance ends here */
+
+/* Agent information style */
+.agent__agentinformationmain {
+  display: none;
+}
+.agent__agentinformationcontainer {
+  width: 90%;
+  height: auto;
+}
+
+.showagentinfo {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+}
+
+.agent__informationtop {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.agent__informationtop h2 {
+  font-size: 36px;
+  padding: 25px;
+  text-align: center;
+}
+.agent__informationtop h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.agent__infocontainer {
+  width: 100%;
+  flex-direction: column;
+  display: none;
+}
+.agent__infocontainer h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.agent__agentinformation {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  margin-top: 100px;
+}
+.agent__agentinfo1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 99%;
+  margin-left: 0px;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+.agent__agentinfo1 h3 {
+  width: 250px;
+  font-weight: 500;
+}
+.agent__agentinfo1 span {
+  width: 250px;
+  font-size: 14px;
+}
+.agent__agentinfo1 button {
+  width: 100px;
+  background-color: #6c56f9;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Agent Record */
+/* Transaction History */
+.agent__agenttransationhistorymain {
+  display: none;
+}
+.agent__agentatransationhistorycontainer {
+  width: 100%;
+  height: auto;
+  /* background-color: #6c56f9; */
+  /* background-color: orange; */
+  /* padding: 25px; */
+}
+
+.showagent {
+  display: flex;
+  width: 95%;
+  height: auto;
+  padding: 0px 10px;
+  /* background-color: #b2a2b3; */
+}
+
+.agentmain__transationhistorytop {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #419feb; */
+}
+.agentmain__transationhistorytop h2 {
+  font-size: 36px;
+  padding: 45px 25px;
+  padding-bottom: 50px;
+  text-align: center;
+  /* margin-left: 80px; */
+}
+
+.agent__infocontainer {
+  width: 100%;
+  /* display: flex; */
+  flex-direction: column;
+  display: none;
+}
+.agent__infocontainer h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.agentmain__transationhistory {
+  width: 100%;
+  height: auto;
+  /* max-height: 500px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  /* background-color: #6c56f9; */
+  border-radius: 25px;
+  margin-top: 50px;
+  overflow-y: auto;
+  padding-bottom: 25px;
+}
+.agent__transationhistoryheader {
+  display: flex;
+  width: 100%;
+  color: black;
+  align-items: center;
+  /* justify-content: space-around; */
+  padding-left: 25px;
+  font-weight: 700;
+}
+.agent__transationhistorydata {
+  display: flex;
+  width: 100%;
+  color: black;
+  align-items: center;
+  /* justify-content: space-around; */
+  margin-top: 20px;
+  padding-left: 25px;
+}
+.agent_transactiondata1 {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent_transactiondata2 {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent_transactiondata3 {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent_transactiondata4 {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent_transactiondata5 {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ticket Printed */
+.agent__agentprintedticketmain {
+  display: none;
+}
+.agent__agentaprintedticketcontainer {
+  width: 100%;
+  height: auto;
+  /* background-color: red; */
+}
+
+.showagentprintedticket {
+  display: flex;
+  width: 90%;
+  height: auto;
+  padding: 0px 10px;
+  /* background-color: orange; */
+}
+
+.agent__printedtickettop {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.agent__printedtickettop h2 {
+  font-size: 36px;
+  padding: 25px;
+  padding-bottom: 50px;
+  text-align: center;
+  /* color: grey; */
+  /* margin-left: 80px; */
+}
+.agent__printedtickettop h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.agent__printedticket {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: white;
+  border-radius: 25px;
+  margin-top: 50px;
+  overflow-y: auto;
+  padding-bottom: 25px;
+}
+.agent__printedticketheader {
+  display: flex;
+  width: 100%;
+  color: grey;
+  align-items: center;
+  /* justify-content: space-around; */
+  padding-left: 25px;
+  font-weight: 700;
+}
+.agentmain__printedticketdata {
+  display: flex;
+  width: 100%;
+  color: black;
+  align-items: center;
+  /* justify-content: space-around; */
+  margin-top: 20px;
+  padding-left: 25px;
+  border-bottom: 2px solid rgb(10, 10, 10);
+}
+.agentmain_printedticketdata1 {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agentmain_printedticketdata2 {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agentmain_printedticketdata3 {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agentmain_printedticketdata4 {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agentmain_printedticketdata5 {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agentmain_printedticketdata5 button {
+  border: none;
+}
+/* Reverse Ticket */
+.agent__agentreverseticketmain {
+  display: none;
+}
+.agent__agentreverseticketcontainer {
+  width: 90%;
+  height: auto;
+  /* background-color: #6c56f9; */
+  /* background-color: orange; */
+  /* padding: 25px; */
+}
+
+.showagentreverseticket {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+  /* background-color: #b2a2b3; */
+}
+
+.agent__reversetickettop {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.agent__reversetickettop h2 {
+  font-size: 36px;
+  padding: 25px;
+  text-align: center;
+  /* margin-left: 80px; */
+}
+.agent__reversetickettop h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.agent__reverseticket {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: white;
+  border-radius: 25px;
+  margin-top: 50px;
+  overflow-y: auto;
+  padding-bottom: 25px;
+}
+.agent__reverseticketheader {
+  display: flex;
+  width: 100%;
+  color: grey;
+  align-items: center;
+  /* justify-content: space-around; */
+  padding-left: 25px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.agent__reverseticketdata {
+  display: flex;
+  width: 100%;
+  color: black;
+  align-items: center;
+  /* justify-content: space-around; */
+  margin-top: 20px;
+  padding-left: 25px;
+}
+.agent_reverseticketdata1 {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent_reverseticketdata2 {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent__reverseticketdata button {
+  background-color: #6c56f9;
+  padding: 5px 10px;
+  color: white;
+  border: none;
+}
+.agent__reverseticketdata button:hover {
+  background-color: rgb(108, 86, 249, 0.7);
+}
+.agent_reverseticketdata3 {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent_reverseticketdata4 {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent_reverseticketdata5 {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent_reverseticketdata6 {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent_reverseticketdata7 {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* All Credit */
+
+.agent__allcreditmain {
+  display: none;
+}
+.agent__allcreditcontainermain {
+  width: 100%;
+  height: auto;
+}
+.agent__allcreditcontainermain h2 {
+  padding: 45px 0px;
+  padding-bottom: 60px;
+}
+.agent__allcredittopmain {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.agent__allcredittopmain h2 {
+  font-size: 18px;
+  margin: 0px;
+  padding: 0;
+}
+.agent__allcredittopmain span {
+  font-size: 14px;
+  font-weight: 700;
+}
+.agent__allcredittopmaincontent1 {
+  width: 19%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7;
+  padding: 10px 0px;
+}
+.agentallcredit__img1 {
+  width: 35px;
+  height: 35px !important;
+  border-radius: 50%;
+  background-color: rgb(166, 230, 166);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard__localgovtothers1 {
+  margin-left: 10px;
+}
+.agent__allcredittopmaincontent2 {
+  padding: 10px 0px;
+  width: 19%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7;
+}
+.agentallcredit__img2 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(241, 207, 134);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*
+#b1dff5--5
+rgb(166, 230, 166) --4
+rgb(255, 221, 255) --3
+rgb(241, 207, 134) --2 */
+.agentallcredit__img3 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(255, 221, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agentallcredit__img4 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(166, 230, 166);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agentallcredit__img5 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: #b1dff5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent__allcredittopmaincontent3 {
+  width: 19%;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7;
+}
+.agent__allcredittopmaincontent4 {
+  width: 19%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 0px; */
+  border-radius: 10px;
+  color: #267ea7;
+}
+.agent__allcredittopmaincontent5 {
+  width: 19%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 0px; */
+  border-radius: 10px;
+  color: #267ea7;
+}
+
+.allcredit__recordothers1 {
+  margin-left: 10px;
+  /* background-color: orange; */
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.allcredit__recordothers1 h2 {
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+}
+.allcredit__recordothers1 span {
+  font-size: 14px;
+  color: #267ea7 !important;
+}
+.showagentallcredit {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+  /* background-color: #b2a2b3; */
+}
+
+/* AgentAllDebit */
+.agent__alldebitmain {
+  display: none;
+}
+.showagentalldebit {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+
+  /* background-color: #b2a2b3; */
+}
+.agent__alldebitcontainermain {
+  width: 90%;
+  height: auto;
+}
+.agent__alldebitcontainermain h2 {
+  padding: 45px 0px;
+  padding-bottom: 60px;
+}
+.agent__alldebittop {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.agent__alldebittop h2 {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.debitmain__recordagent1 {
+  width: 30%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7;
+  padding: 20px 0px;
+}
+.debitmain__recordagent span {
+  font-size: 24px;
+  color: white;
+}
+.debitmain__recordagent span {
+  font-size: 30px;
+  color: white;
+}
+.debitmain__record3 span {
+  font-size: 30px;
+  color: white;
+}
+.debitmain__recordagent2 {
+  width: 25%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7;
+  padding: 20px 0px;
+}
+.debitmain__recordagent3 {
+  width: 30%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7;
+  padding: 20px 0px;
+}
+.debitmain__img1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(166, 230, 166);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.debitmain__img2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(241, 207, 134);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.debitmain__img3 {
+  width: 70px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(255, 221, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alldebit__recordothers1 {
+  margin-left: 10px;
+  /* background-color: orange; */
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.alldebit__recordothers1 h2 {
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+}
+.alldebit__recordothers1 span {
+  font-size: 14px;
+  color: #267ea7 !important;
+}
+/* All Deposite */
+
+.agent__alldepositmain {
+  display: none;
+}
+.showagentdeposit {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+  /* background-color: #b2a2b3; */
+}
+.deposit__alldepositcontainer {
+  width: 90%;
+  height: auto;
+}
+.deposit__alldepositcontainer h2 {
+  padding: 45px 0px;
+  padding-bottom: 60px;
+}
+
+.alldepositmain__alldeposittop {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.alldepositmain__alldeposittop h2 {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.alldepositmain__recordagent1 {
+  width: 30%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7;
+  padding: 20px 0px;
+}
+.debitmain__recordagent span {
+  font-size: 24px;
+  color: white;
+}
+.debitmain__recordagent span {
+  font-size: 30px;
+  color: white;
+}
+.debitmain__record3 span {
+  font-size: 30px;
+  color: white;
+}
+.alldepositmain__recordagent2 {
+  width: 25%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7;
+  padding: 20px 0px;
+}
+.alldepositmain__recordagent3 {
+  width: 30%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7;
+  padding: 20px 0px;
+}
+.alldepositmain__img1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(166, 230, 166);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.alldepositmain__img2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(241, 207, 134);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.alldepositmain__img3 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(255, 221, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alldeposit__recordothers1 {
+  margin-left: 10px;
+  /* background-color: orange; */
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.alldeposit__recordothers1 h2 {
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+}
+.alldeposit__recordothers1 span {
+  font-size: 14px;
+  color: #267ea7 !important;
+}
+
+.agent__alldeposittop {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.agent__alldeposittop h2 {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.agent__alldeposittopcontent1 {
+  width: 25%;
+  height: 130px;
+  background-color: #6c56f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: white;
+  padding: 10px 0px;
+}
+
+.agent__alldeposittopcontent2 {
+  padding: 10px 0px;
+  width: 25%;
+  height: 130px;
+  background-color: #f356f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: white;
+}
+.agent__alldeposittopcontent3 {
+  width: 25%;
+  height: 130px;
+  background-color: #f7c744;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: white;
+}
+
+/* Wallet Balance */
+
+.agent__walletbalance {
+  display: none;
+}
+.showagentwallet {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+}
+
+.agent__walletbalancecontainer {
+  width: 90%;
+  height: 200px;
+}
+
+.agent__walletbalancecentered {
+  height: 300px;
+  width: 90%;
+  display: flex;
+}
+.agent__walletbalancehistory {
+  width: 60%;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+}
+.agent__walletbalancehistory h3 {
+  margin-bottom: 20px;
+  color: grey;
+}
+.agent__walletbalanceCenterHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.agent__walletbalanceCenterHeader h2 {
+  font-size: 16px;
+  margin-right: 100px;
+}
+.agent__walletbalanceCenterHeader h3 {
+  font-size: 16px;
+}
+.agentwalletbalanceagent__th {
+  width: 25%;
+}
+.agent__walletbalancehistorycontainer {
+  width: 90%;
+  height: 250px;
+  background-color: white;
+  border-radius: 25px;
+  padding: 25px;
+}
+.agent__walletbalance {
+  width: 40%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: white; */
+}
+.agent__walletbalance h3 {
+  margin-bottom: 20px;
+  color: grey;
+}
+.agent__agentwalletbalancecontainer {
+  width: 100%;
+  height: 250px;
+  background-color: white;
+  border-radius: 25px;
+}
+.agentwalletbalance_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: 20px; */
+  padding: 25px;
+  font-size: 16px;
+}
+.agentwalletbalance__holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 70%;
+  padding: 0px 25px;
+  font-size: 16px;
+  /* background-color: #419feb; */
+}
+
+.agentwalletbalancecard-number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: 20px; */
+  background-color: rgb(247, 194, 95);
+  width: 100%;
+  padding: 5px 25px;
+  /* height: 50px; */
+  border-radius: 0px 0px 25px 25px;
+  font-size: 24px;
+}
+.agent__rightcontainer h1 {
+  color: grey;
+}
+.agent__walletbalancetop {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.agent__walletbalancetop h2 {
+  font-size: 18px;
+}
+.agent__walletbalancetop h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.agent__walletbalancetopcontent1 {
+  width: 15%;
+  height: 100px;
+  background-color: #6c56f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 0px;
+}
+
+.agent__walletbalancetopcontent2 {
+  padding: 10px 0px;
+  width: 15%;
+  height: 100px;
+  background-color: #f356f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: white;
+}
+
+.agent__walletbalancetopcontent4 {
+  width: 15%;
+  height: 100px;
+  background-color: #26a780;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: white;
+}
+
+/* Agent Transaction */
+.agent__agenttransactionmain {
+  display: none;
+}
+.agent__agenttransactioncontainer {
+  width: 90%;
+  height: auto;
+}
+.agent__agenttransactioncontainer h2 {
+  padding: 25px 0px;
+}
+.agent__agenttransactiontop {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.agent__agenttransactiontop h2 {
+  font-size: 18px;
+  margin: 0px;
+  padding: 0;
+}
+.agent__agenttransactiontop span {
+  font-size: 14px;
+  font-weight: 700;
+}
+.agent__agenttransactiontop h6 {
+  font-size: 12px;
+  font-weight: 400;
+}
+.agent__agenttransactiontopcontent1 {
+  width: 20%;
+  height: 100px;
+  background-color: #6c56f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: white;
+  padding: 10px 0px;
+}
+
+.agent__agenttransactiontopcontent2 {
+  padding: 10px 0px;
+  width: 20%;
+  height: 100px;
+  background-color: #f356f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: white;
+}
+.agent__agenttransactiontopcontent3 {
+  width: 20%;
+  height: 100px;
+  background-color: #f7c744;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: white;
+}
+.agent__agenttransactiontopcontent4 {
+  width: 20%;
+  height: 100px;
+  background-color: #26a780;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: white;
+}
+.agent__agenttransactiontopcontent5 {
+  width: 18%;
+  height: 100px;
+  background-color: #267ea7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: white;
+}
+.showagenttransaction {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+}
+
+/* Agent CreditSuubAgent */
+.agent__creditsubagentmain {
+  display: none;
+}
+.agent__creditsubagentcontainer {
+  width: 90%;
+  height: auto;
+}
+.agent__creditsubagentcontainer h2 {
+  padding: 25px 0px;
+  text-align: center;
+}
+.showcreditsubagent {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+}
+
+.agent__creditsubagenttop {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.creditsubagentinfo {
+  background-color: rgb(233, 230, 230);
+  height: 400px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.creditsubagentinfo__form {
+  width: 80%;
+}
+.creditsubagent__formcontrol {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+  border-radius: 15px;
+}
+.creditsubagent__formcontrol button {
+  border: none;
+  background-color: #267ea7;
+  color: white;
+  padding: 10px;
+}
+.creditsubagent__formcontrol input {
+  width: 100%;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+.creditsubagent__receipt {
+  width: 100%;
+  display: flex;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+/* Agent Previous Balance */
+.agent__previousbalmain {
+  display: none;
+}
+.agent__agentpreviousbalcontainer {
+  width: 90%;
+  height: auto;
+}
+.agent__agentpreviousbalcontainer h2 {
+  padding: 25px 0px;
+}
+.showagentpreviousbal {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+}
+
+.agent__agentpreviousbaltop {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.agent__agentpreviousbaltop h2 {
+  font-size: 18px;
+}
+.agent__agentpreviousbaltop h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.agent__agentpreviousbaltopcontent1 {
+  width: 50%;
+  height: 150px;
+  background-color: #6c56f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: white;
+  padding: 10px 0px;
+}
+
+.agent__agentpreviousbaltopcontent2 {
+  padding: 10px 0px;
+  width: 40%;
+  height: 150px;
+  background-color: #f356f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: white;
+}

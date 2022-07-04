@@ -1,0 +1,96 @@
+@media screen and (max-width: 600px) {
+  .users {
+    width: 100% !important;
+  }
+}
+
+.navdropdownUsers {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 5px 0px;
+  width: 100%;
+  cursor: pointer;
+}
+.navdropdownUsers span {
+  color: white;
+}
+.navdropdown__down {
+  margin-left: 5px;
+  color: white;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+.navdropdown__down:hover {
+  transform: translateY(5px);
+}
+.users {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red !important; */
+  width: 250px;
+  align-items: flex-start;
+  justify-content: center;
+  height: auto;
+  position: relative;
+}
+.user__icon {
+  padding-top: 0px;
+  padding-right: 10px;
+  width: 36px !important;
+  height: 36px !important;
+}
+.navdropdown__icon {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+.navdropdownUserToggle {
+  margin-top: 1px;
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+.navdropdownUserToggle span {
+  width: 100%;
+  padding-left: 25px;
+  padding-top: 5px;
+  color: #dbcbcb;
+  cursor: pointer;
+}
+.links {
+  margin-bottom: 5px;
+  padding: 10px 0px;
+}
+.navdropdownUserToggle span:hover {
+  color: white;
+}
+
+/* TrackAgent */
+.track__agents {
+  width: 100%;
+  padding-left: 25px;
+  padding-top: 5px;
+  color: #dbcbcb;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+.track__agents:hover {
+  color: white;
+}
+.track__agentshead {
+  display: flex;
+}
+.trackagent__suboptions {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.trackagent__options {
+  margin-bottom: 10px;
+}

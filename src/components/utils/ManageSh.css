@@ -1,0 +1,15 @@
+.manageshcontainer {
+  width: 100%;
+  background-color: beige;
+  display: flex;
+  justify-content: space-evenly;
+}
+.name,
+.location,
+.button,
+.update,
+.delete {
+  width: 18%;
+  padding: 5px;
+  color: grey;
+}

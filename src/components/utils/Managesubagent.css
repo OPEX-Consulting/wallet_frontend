@@ -1,0 +1,31 @@
+.managesubagentcontainer {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid grey;
+}
+.name,
+.location,
+.button,
+.update,
+.delete {
+  width: 18%;
+  padding: 5px;
+}
+
+.deleteicon {
+  color: red;
+  cursor: pointer;
+}
+.updateicon {
+  color: rgb(108, 86, 249);
+  cursor: pointer;
+}
+.button button {
+  padding: 5px 10px;
+  background-color: rgb(108, 86, 249);
+  color: white;
+  border: none;
+  cursor: pointer;
+}

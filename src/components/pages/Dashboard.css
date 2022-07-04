@@ -1,0 +1,4597 @@
+/* MEDIA QUERY FOR SEVERAL SCREENS */
+/* MOBILE <= 600PX */
+/* @media screen and (max-width: 320px) {
+  .dashboard__topcontent1 {
+    width: 90% !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+  }
+  .dashboard__topcontent2 {
+    width: 95% !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+  }
+  .dashboard__topcontent3 {
+    width: 95% !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+  }
+  .dashboard__topcontent4 {
+    width: 95% !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+  }
+  .dashboard__topcontent5 {
+    width: 95% !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+  }
+} */
+@media screen and (max-width: 600px) {
+  .dashboard__container {
+    /* background-color: red !important; */
+    width: 100% !important;
+    flex-direction: column;
+  }
+  .dashboard__govtcontainer{
+    width: 100% !important;
+    flex-direction: column;
+  }
+  .dashboard__transactionhistory{
+    width: 100% !important;
+  }
+  .dashboard__transactionhistorycontainer{
+    width: 100% !important;
+  }
+  .dashboard__transactionhistorycontainer1{
+    width: 100% !important;
+    margin-top: 10% !important;
+  }
+  .dashboard__transactionhistory h3{
+    text-align: center;
+  }
+  .dashboard__wallet h3{
+    text-align: center;
+  }
+  .selectlocalgovt__rightcontainer{
+    width:  100% !important;
+  }
+  .selectlocalgovt__rightcontainer h1{
+    text-align: center;
+  }
+  .selectlocalgovt__select button{
+   width: 100% !important;
+  }
+  .dashboard__left {
+    flex: 1 !important;
+  }
+  .dashboard__others1{
+    width: 80%;
+    /* background-color: #6a6b6b !important; */
+    display: flex;
+    align-items: center !important;
+    /* background-color: orange; */
+    justify-content: space-between !important;
+  }
+  .dashboard__itemsclients {
+    width: 100%;
+    /* background-color: #26a780 !important; */
+  }
+  .govtmain {
+    width: 100% !important;
+    height: 250vh !important;
+    flex-direction: column !important;
+    /* background-color: #267ea7 !important; */
+  }
+  .dashboard__top {
+    width: 100% !important;
+    flex-direction: column !important;
+  }
+  .dashboard__topcontent1 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .dashboard__topcontent2 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    padding-left: 0px !important;
+  }
+  .dashboard__topcontent3 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    padding-left: 0px !important;
+  }
+  .dashboard__topcontent4 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    padding-left: 0px !important;
+  }
+  .dashboard__topcontent5 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    padding-left: 0px !important;
+  }
+  .dashboard__others1{
+    width: 80%;
+    /* background-color: #6a6b6b !important; */
+    display: flex;
+    align-items: center !important;
+    /* background-color: orange; */
+    justify-content: space-between !important;
+  }
+  .users {
+    width: 100% !important;
+  }
+  .dashboard__centered {
+    width: 100% !important;
+    flex-direction: column !important;
+    /* background-color: orange !important; */
+    margin-top: 150px !important;
+  }
+  .dashboard__transactionhistory {
+    width: 100% !important;
+    margin-top: 50px;
+  }
+  .dashboard__wallet {
+    width: 100% !important;
+    margin-top: 350px;
+  }
+   .govt__createticketcontainer{
+    width : 100% !important;
+  } 
+  .govt__createtickettop{
+    width: 100% !important;
+  }
+  .govt__createticketmain{
+    width: 100% !important;
+  }
+  .govt__createticketform{
+    width: 100% !important;
+  }
+  .govt__updateticketform{
+    width: 100% !important;
+  }
+  .govt__updateticketmain{
+    width: 100;
+  }
+   .govt__updateticketcontainer{
+    width: 100% !important;
+  } 
+  .govt__updatetickettop{
+    width: 100% !important;
+  }
+  /* AGENT MOBILE RESPONSIVENESS */
+  .agent__govtcontainer {
+    width: 100% !important;
+  }
+  .agent__otherinfo1 span {
+    font-size: 16px !important;
+    padding-top: 10px;
+  }
+  .agent__otherinfo1 {
+    width: 80%;
+    /* background-color: #6a6b6b !important; */
+    display: flex;
+    align-items: center !important;
+    /* background-color: orange; */
+    justify-content: space-between !important;
+  }
+  .agent__top {
+    /* background-color: #419feb; */
+    width: 100% !important;
+    flex-direction: column;
+  }
+  .agent__topcontent1 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .agent__topcontent2 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    padding-left: 0px !important;
+  }
+  .agent__topcontent3 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    padding-left: 0px;
+  }
+
+  .agent__centered {
+    width: 100% !important;
+    margin-top: 100px !important;
+    height: auto !important;
+    /* background-color: #6c56f9; */
+    display: flex;
+    flex-direction: column;
+  }
+  .agent__transactionhistory {
+    width: 100% !important;
+  }
+  .agent__transactionhistory h3 {
+    /* width: 350px !important; */
+    text-align: center;
+  }
+  .agent__transactionhistorycontainer {
+    width: 100% !important;
+  }
+  .agent__transactionhistory {
+    width: 100% !important;
+  }
+  .agent__wallet {
+    width: 100% !important;
+    margin-top: 330px;
+  }
+  .agent__wallet h3 {
+    text-align: center;
+  }
+  /* All credit */
+  .agent__agenttransactioncontainer {
+    width: 100% !important;
+    /* background-color: #419feb; */
+    height: auto !important;
+  }
+  .agent__agenttransactioncontainer h2 {
+    text-align: center;
+  }
+  /* .............. */
+  /*TAKE NOTE OF THIS FOR THE PROPER ARRANGEMENTS OF SIMILAR PLACES...  */
+  .agent__alltransaction1 {
+    width: 80%;
+    /* background-color: #6a6b6b; */
+    display: flex;
+    align-items: center !important;
+    /* background-color: orange; */
+    justify-content: space-between !important;
+  }
+
+  .agent__agenttransactiontop {
+    width: 100%;
+    /* background-color: #6c56f9; */
+    flex-direction: column;
+    padding: 50px 0px;
+  }
+  .agent__agenttransactiontopcontent1 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .agent__agenttransactiontopcontent2 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    padding-left: 0px !important;
+  }
+  .agent__agenttransactiontopcontent3 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .agent__agenttransactiontopcontent4 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    padding-left: 0px !important;
+  }
+  .agent__agenttransactiontopcontent5 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  /* managesubagent */
+  .agent__managesubagentcontainer {
+    width: 100% !important;
+    /* background-color: #419feb; */
+    height: auto !important;
+  }
+  .agent__managesubagentcontainer h2 {
+    text-align: center;
+  }
+  .agent__managesubagenttop {
+    width: 100% !important;
+    flex-direction: column;
+    padding: 0px 0px;
+  }
+
+  /* Previous Balance */
+  .agent__agentpreviousbalcontainer {
+    width: 100% !important;
+    /* background-color: #419feb; */
+    height: auto !important;
+  }
+  .agent__agentpreviousbalcontainer h2 {
+    text-align: center;
+  }
+  .agent__agentpreviousbaltop {
+    width: 100% !important;
+    flex-direction: column;
+    padding: 0px 0px;
+  }
+  .agent__previous1 {
+    width: 80%;
+    /* background-color: #6a6b6b; */
+    display: flex;
+    align-items: center !important;
+    /* background-color: orange; */
+    justify-content: space-between !important;
+  }
+  .agent__agentpreviousbaltopcontent1 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    height: 100px !important;
+  }
+  .agent__agentpreviousbaltopcontent2 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    height: 100px !important;
+  }
+  /* All Debit */
+  .agent__alldebitcontainer {
+    width: 100% !important;
+    /* background-color: #419feb; */
+    height: auto !important;
+  }
+  .agent__alldebitcontainer h2 {
+    text-align: center;
+  }
+  .agent__alldebitothers1 {
+    width: 80%;
+    /* background-color: #6a6b6b; */
+    display: flex;
+    align-items: center !important;
+    /* background-color: orange; */
+    justify-content: space-between !important;
+  }
+  .agent__alldebittop {
+    width: 100%;
+    /* background-color: #6c56f9; */
+    flex-direction: column;
+    padding: 50px 0px;
+  }
+  .agent__alldebittopcontent1 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .agent__alldebittopcontent2 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .agent__alldebittopcontent3 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+
+  /* All Credit */
+  .agent__allcreditcontainer {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .agent__allcreditcontainer h2 {
+    text-align: center;
+  }
+  .agent__allcredittop {
+    width: 100%;
+    flex-direction: column;
+    padding: 50px 0px;
+  }
+  .agent__allcredittopcontent1 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .agent__allcredittopcontent2 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    /* padding-left: 90px !important; */
+  }
+  .agent__allcredittopcontent3 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .agent__allcredittopcontent4 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .agent__allcredittopcontent5 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .agent__creditgovtcontainer{
+    width: 100% !important;
+  }
+  .agent__creditgovtmain{
+    width: 100% !important;
+  }
+  .agent__creditgovttop{
+    width: 100% !important;
+  }
+  .creditgovtinfo{
+    width: 100%;
+  }
+  .creditgovtinfo__form{
+    width: 100% !important;
+  }
+
+  
+  /* All Deposit */
+  .agent__alldepositcontainer {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .agent__alldepositcontainer h2 {
+    text-align: center;
+  }
+  .agent__alldeposittop {
+    width: 100%;
+    flex-direction: column;
+    padding: 0px 0px;
+  }
+  .agent__alldeposittopcontent1 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .agent__alldeposittopcontent2 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .agent__alldeposittopcontent3 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+
+  /* Prints */
+  .agent__printedticketheader {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+  }
+  .agentmain__printedticketdata {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+  }
+
+  /* Transaction history */
+  .agent__transationhistoryheader {
+    font-size: 10px !important;
+    font-weight: 500 !important;
+  }
+  .agent__transationhistorydata {
+    font-size: 10px !important;
+    font-weight: 500 !important;
+  }
+  /* Reverse Ticket  */
+  .agent__reversetickettop {
+    width: 100% !important;
+    min-width: 370px !important;
+    overflow-y: visible;
+    /* background-color: #514e64; */
+  }
+  .showagentreverseticket {
+    width: 100% !important;
+  }
+  .agent__reverseticket {
+    border-radius: 0px !important;
+  }
+  .agent__reverseticketheader {
+    font-size: 10px !important;
+  }
+  .agent_reverseticketdata1 {
+    width: 15% !important;
+  }
+  .agent_reverseticketdata2 {
+    width: 15% !important;
+  }
+  .agent_reverseticketdata3 {
+    width: 15% !important;
+  }
+  .agent_reverseticketdata4 {
+    width: 15% !important;
+  }
+  .agent_reverseticketdata5 {
+    width: 15% !important;
+  }
+  .agent_reverseticketdata6 {
+    width: 15% !important;
+  }
+  .agent_reverseticketdata7 {
+    width: 15% !important;
+  }
+  .agent__reverseticketdata {
+    font-size: 10px !important;
+  }
+
+  /* Credit record */
+  .agent__creditrecordcontainer {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .agent__creditrecordcontainer h2 {
+    text-align: center;
+  }
+  .agent__creditagentothers1 {
+    width: 80%;
+    /* background-color: #6a6b6b; */
+    display: flex;
+    align-items: center !important;
+    /* background-color: orange; */
+    justify-content: space-between !important;
+  }
+
+  .agent__credittop {
+    width: 100%;
+    flex-direction: column;
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+  .agent__credittopcontent1 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    height: 120px !important;
+  }
+  .agent__credittopcontent2 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    height: 120px !important;
+  }
+  .agent__credittopcontent3 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    height: 120px !important;
+  }
+  /* Credit SubAgent */
+  .agent__creditsubagenttop {
+    width: 100% !important;
+    background-color: red !important;
+  }
+  .creditsubagentinfoo {
+    width: 100% !important;
+  }
+  /* ................................... */
+  /* ................................... */
+  /* ................................... */
+  /* SUBAGENT RESPONSIVENESS CSS CODE..... */
+  .agent__agentothers1 {
+    width: 80%;
+    /* background-color: #6a6b6b; */
+    display: flex;
+    align-items: center !important;
+    /* background-color: orange; */
+    justify-content: space-between !important;
+  }
+  .agent__agentothers1 span {
+    font-size: 18px !important;
+    padding-top: 10px;
+  }
+  .agent__allcreditagentothers1 {
+    width: 80%;
+    /* background-color: #6a6b6b; */
+    display: flex;
+    align-items: center !important;
+    /* background-color: orange; */
+    justify-content: space-between !important;
+  }
+  .agent__agenttransactionimg1 {
+    width: 80%;
+    /* background-color: #6a6b6b; */
+    display: flex;
+    align-items: center !important;
+    /* background-color: orange; */
+    justify-content: space-between !important;
+  }
+  .agent__alldebitothers1 {
+    width: 80%;
+    /* background-color: #6a6b6b; */
+    display: flex;
+    align-items: center !important;
+    /* background-color: orange; */
+    justify-content: space-between !important;
+  }
+}
+.agent__alldeposite1 {
+  width: 80%;
+  /* background-color: #6a6b6b; */
+  display: flex;
+  align-items: center !important;
+  /* background-color: orange; */
+  justify-content: space-between !important;
+}
+.subagent__bulkprinttop{
+  width: 100% !important;
+}
+.subagent__bulkprintform{
+  width: 100% !important;
+}
+.subagent__singleprintttop{
+  width: 100% !important;
+}
+.subagent__singleprintform{
+  width: 100% !important;
+}
+/* ................ */
+/* ................ */
+/* ................ */
+/* ................ */
+/* ................ */
+/* TABLET <= 768PX */
+@media screen and (max-width: 768px) {
+  .agent__govtcontainer {
+    width: 100% !important;
+    /* background-color: #267ea7 !important; */
+    max-width: 420px;
+  }
+  .agent__top {
+    /* background-color: #eb9c41; */
+    width: 100% !important;
+    flex-direction: column;
+    /* max-width: 400px; */
+  }
+  /* .agent__agentinformation{
+    width: 80% !important;
+  }
+  .agent__informationtop{
+    width: 100% !important;
+  } */
+  .agent__agentinformationmain{
+    width: 100% !important;
+  }
+  .agent__topcontent1 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .agent__topcontent2 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    padding-left: 0px !important;
+  }
+  .agent__topcontent3 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    padding-left: 0px;
+  }
+  .agent__centered {
+    width: 100% !important;
+    margin-top: 100px !important;
+    height: auto !important;
+    /* background-color: #6c56f9; */
+    display: flex;
+    flex-direction: column;
+  }
+  .agent__transactionhistory {
+    width: 100% !important;
+    max-width: 420px;
+  }
+
+  .agent__transactionhistorycontainer {
+    width: 100% !important;
+  }
+  .agent__transactionhistory {
+    width: 100% !important;
+  }
+  .agent__wallet {
+    width: 100% !important;
+    margin-top: 330px;
+  }
+  
+ /* .showagentinfo{
+  width: 100% !important;
+ } */
+  .showmain {
+    width: 100% !important;
+  }
+  .agent__otherinfo1 {
+    width: 80%;
+    /* background-color: #6a6b6b !important; */
+    display: flex;
+    align-items: center !important;
+    /* background-color: orange; */
+    justify-content: space-between !important;
+  }
+  
+  /* Credit record */
+  .agent__creditrecordcontainer {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .agent__creditrecordcontainer h2 {
+    text-align: center;
+  }
+  .agent__creditagentothers1 {
+    width: 80%;
+    /* background-color: #6a6b6b; */
+    display: flex;
+    align-items: center !important;
+    /* background-color: orange; */
+    justify-content: space-between !important;
+  }
+
+  /* Credit Record */
+
+  .agent__credittop {
+    width: 100%;
+    flex-direction: column;
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+  .agent__credittopcontent1 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    height: 120px !important;
+  }
+  .agent__credittopcontent2 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    height: 120px !important;
+  }
+  .agent__credittopcontent3 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    height: 120px !important;
+  }
+  /* All Credit */
+
+  .agent__allcreditcontainer h2 {
+    text-align: center;
+  }
+  .agent__allcredittop {
+    width: 100%;
+    flex-direction: column;
+    padding: 50px 0px;
+  }
+  .agent__allcredittopcontent1 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .agent__allcredittopcontent2 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    /* padding-left: 90px !important; */
+  }
+  .agent__allcredittopcontent3 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .agent__allcredittopcontent4 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .agent__allcredittopcontent5 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+
+  /* All Deposit */
+
+  .agent__alldepositcontainer h2 {
+    text-align: center;
+  }
+  .agent__alldeposittop {
+    width: 100%;
+    flex-direction: column;
+    padding: 0px 0px;
+  }
+  .agent__alldeposittopcontent1 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .agent__alldeposittopcontent2 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .agent__alldeposittopcontent3 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  /* All Debit */
+  .agent__alldebitcontainer {
+    width: 100% !important;
+    /* background-color: #419feb; */
+    height: auto !important;
+  }
+  .agent__alldebitcontainer h2 {
+    text-align: center;
+  }
+  .agent__alldebittop {
+    width: 100%;
+    /* background-color: #6c56f9; */
+    flex-direction: column;
+    padding: 0px 0px;
+  }
+  .agent__alldebittopcontent1 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .agent__alldebittopcontent2 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .agent__alldebittopcontent3 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .agent__alldebitothers1 {
+    width: 80%;
+    /* background-color: #6a6b6b; */
+    display: flex;
+    align-items: center !important;
+    /* background-color: orange; */
+    justify-content: space-between !important;
+  }
+  .dashboard__right {
+    align-items: flex-start !important;
+  }
+
+  /* Printed tickets */
+  .agent__printedtickettop {
+    width: 100% !important;
+    max-width: 450px;
+    overflow-x: auto;
+    /* background-color: orange !important; */
+  }
+  .agent__printedticket {
+    width: 100% !important;
+  }
+  /* .agent__printedtickettop h2 {
+    font-size: 36px;
+    padding: 25px;
+    text-align: center;
+  }
+  .agent__printedtickettop h6 {
+    font-size: 14px;
+    font-weight: 400;
+  } */
+  .agent__reversetickettop {
+    width: 100% !important;
+    max-width: 400px;
+    overflow-x: auto;
+  }
+  .agent__transationhistorytop {
+    width: 100% !important;
+    max-width: 400px !important;
+    overflow-x: auto;
+  }
+  .agent__creditsubagenttop {
+    width: 100% !important;
+    background-color: red !important;
+  }
+
+  .creditsubagentinfoo {
+    width: 100% !important;
+  }
+
+  /* managesubagent */
+  .agent__managesubagentcontainer {
+    width: 100% !important;
+    /* background-color: #419feb; */
+    height: auto !important;
+  }
+  .agent__managesubagentcontainer h2 {
+    text-align: center;
+  }
+  .agent__managesubagenttop {
+    width: 100% !important;
+    flex-direction: column;
+    padding: 0px 0px;
+  }
+
+  /* Previous Bal */
+  .agent__agentpreviousbalcontainer {
+    width: 100% !important;
+    /* background-color: #419feb; */
+    height: auto !important;
+  }
+  .agent__agentpreviousbalcontainer h2 {
+    text-align: center;
+  }
+  .agent__agentpreviousbaltop {
+    width: 100% !important;
+    flex-direction: column;
+    padding: 0px 0px;
+  }
+  .agent__previous1 {
+    width: 80%;
+    /* background-color: #6a6b6b; */
+    display: flex;
+    align-items: center !important;
+    /* background-color: orange; */
+    justify-content: space-between !important;
+  }
+  .agent__agentpreviousbaltopcontent1 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    height: 100px !important;
+  }
+  .agent__agentpreviousbaltopcontent2 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    height: 100px !important;
+  }
+
+  /* Transactions */
+  .agent__agenttransactiontop {
+    width: 100%;
+    /* background-color: #6c56f9; */
+    flex-direction: column;
+    padding: 50px 0px;
+  }
+  .agent__agenttransactiontopcontent1 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .agent__agenttransactiontopcontent2 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    padding-left: 0px !important;
+  }
+  .agent__agenttransactiontopcontent3 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .agent__agenttransactiontopcontent4 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    padding-left: 0px !important;
+  }
+  .agent__agenttransactiontopcontent5 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .agent__alltransaction1 {
+    width: 80%;
+    /* background-color: #6a6b6b; */
+    display: flex;
+    align-items: center !important;
+    /* background-color: orange; */
+    justify-content: space-between !important;
+  }
+
+  .agent__agentothers1 {
+    width: 80%;
+    /* background-color: #6a6b6b; */
+    display: flex;
+    align-items: center !important;
+    /* background-color: orange; */
+    justify-content: space-between !important;
+  }
+  .agent__agentothers1 span {
+    font-size: 18px !important;
+    padding-top: 10px;
+  }
+  .agent__allcreditagentothers1 {
+    width: 80%;
+    /* background-color: #6a6b6b; */
+    display: flex;
+    align-items: center !important;
+    /* background-color: orange; */
+    justify-content: space-between !important;
+  }
+  .agent__agenttransactionimg1 {
+    width: 80%;
+    /* background-color: #6a6b6b; */
+    display: flex;
+    align-items: center !important;
+    /* background-color: orange; */
+    justify-content: space-between !important;
+  }
+  .agent__alldebitothers1 {
+    width: 80%;
+    /* background-color: #6a6b6b; */
+    display: flex;
+    align-items: center !important;
+    /* background-color: orange; */
+    justify-content: space-between !important;
+  }
+  .dashboard__govtcontainer {
+    width: 100% !important;
+    /* background-color: #267ea7 !important; */
+    max-width: 420px;
+  }
+  .dashboard__container{
+
+  }
+  .selectlocalgovt__rightcontainer{
+    width:  100% !important;
+  }
+  .selectlocalgovt__rightcontainer h1{
+    text-align: center;
+  }
+  .selectlocalgovt__select button{
+   width: 100% !important;
+  }
+  .dashboard__top {
+    /* background-color: #eb9c41; */
+    width: 100% !important;
+    flex-direction: column;
+    /* max-width: 400px; */
+  }
+  .dashboard__topcontent1 {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .dashboard__topcontent2 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    padding-left: 0px !important;
+  }
+  .dashboard__topcontent3 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    padding-left: 0px;
+  }
+  .dashboard__topcontent4 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    padding-left: 0px;
+  }
+  .dashboard__topcontent5 {
+    width: 100% !important;
+    margin-bottom: 5px;
+    padding-left: 0px;
+  }
+  .dashboard__centered {
+    width: 100% !important;
+    margin-top: 100px !important;
+    height: auto !important;
+    /* background-color: #6c56f9; */
+    display: flex;
+    flex-direction: column;
+  }
+  .dashboard__transactionhistory {
+    width: 100% !important;
+    max-width: 420px;
+    margin-top: 30px;
+  }
+
+  .dashboard__transactionhistorycontainer {
+    width: 100% !important;
+  }
+  .dashboard__transactionhistory1 {
+    width: 100% !important;
+    max-width: 420px;
+    margin-top: 30% !important;
+  }
+
+  .dashboard__transactionhistorycontainer1 {
+    width: 100% !important;
+  }
+  
+  .dashboard__wallet {
+    width: 100% !important;
+    margin-top: 150px;
+  }
+  .govtmain {
+    width: 100% !important;
+  }
+  .dashboard__otherinfo1 {
+    width: 80%;
+    /* background-color: #6a6b6b !important; */
+    display: flex;
+    align-items: center !important;
+    /* background-color: orange; */
+    justify-content: space-between !important;
+  }
+  .dashboard__others1{
+    width: 80%;
+    /* background-color: #6a6b6b !important; */
+    display: flex;
+    align-items: center !important;
+    /* background-color: orange; */
+    justify-content: space-between !important;
+  }
+  .govt__createticketcontainer{
+    width : 100% !important;
+  }
+  .govt__createtickettop{
+    width: 100% !important;
+  }
+  .govt__createticketmain{
+    width: 100% !important;
+  }
+  .govt__createticketform{
+    width: 100% !important;
+  }
+  .govt__updateticketform{
+    width: 100% !important;
+  }
+  .govt__updateticketmain{
+    width: 100;
+  }
+  .govt__updateticketcontainer{
+    width: 100% !important;
+  }
+  .govt__updatetickettop{
+    width: 100% !important;
+  }
+  /* Credit record */
+  .agent__creditrecordcontainer {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .agent__creditrecordcontainer h2 {
+    text-align: center;
+  }
+  .agent__creditagentothers1 {
+    width: 80%;
+    /* background-color: #6a6b6b; */
+    display: flex;
+    align-items: center !important;
+    /* background-color: orange; */
+    justify-content: space-between !important;
+  }
+  .agent__creditgovtcontainer{
+    width: 100% !important;
+  }
+  .agent__creditgovtmain{
+    width: 100% !important;
+  }
+  .agent__creditgovttop{
+    width: 100% !important;
+  }
+  .creditgovtinfo{
+    width: 100% !important;
+  }
+  .creditgovtinfo__form{
+    width: 100% !important;
+  }
+  .creditgovt__formcontrol{
+    width: 100% !important;
+  }
+  .creditgovt__formcontrol1{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    padding: 20px !important;
+  }
+  .subagent__bulkprinttop{
+    width: 100% !important;
+  }
+  .subagent__bulkprintform{
+    width: 100% !important;
+  }
+  .subagent__singleprintttop{
+    width: 100% !important;
+  }
+  .subagent__singleprintform{
+    width: 100% !important;
+  }
+}
+/* LAPTOP  <= 992PX */
+@media screen and (max-width: 992px) {
+}
+/* LARGE  <= 1200PX */
+@media screen and (max-width: 1200px) {
+}
+
+.dashboard {
+  width: 100%;
+  height: auto;
+}
+.dashboard__container {
+  width: 100%;
+  background-color: rgb(238, 238, 238);
+  display: flex; 
+  /* min-height: 130vh; */
+}
+.dashboard__left {
+  flex: 0.2;
+  height: auto;
+  /* background-color: #6c56f9; */
+  /* background-color: #e7e2e2; */
+  /* background-color: rgb(108, 86, 249); */
+}
+.dashboard__itemscontainer {
+  width: 100%;
+  padding: 25px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  /* border: 2px solid grey; */
+  margin-top: 50px;
+}
+
+.govtmain {
+  display: none;
+    width: 100% !important;
+    max-width: 151vh !important;
+    /* background-color: #267ea7 !important; */
+}
+.showgovt {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+  /* background-color: #f356f9; */
+}
+.dashboard__items {
+  padding: 10px 15px;
+  height: 50px;
+  background-color: rgb(108, 86, 249);
+  width: 250px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  margin-top: 10px;
+}
+.dashboard__items:hover {
+  background-color: rgb(108, 86, 249, 0.7);
+  /* background-color: rgb(160, 153, 204, 0.7); */
+}
+.dashboard__itemsclients {
+  padding: 10px 15px;
+  height: auto;
+  background-color: rgb(108, 86, 249);
+  width: 250px;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+}
+.dashboard__agentrecord {
+  padding: 5px 0px;
+  height: auto;
+  background-color: rgb(108, 86, 249);
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3); */
+  margin-top: 0px;
+}
+.dashboard__users {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dashboardUsers {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: orange; */
+  padding: 5px 0px;
+  width: 100%;
+}
+.dashboardUsers span {
+  color: white;
+}
+.dashboard__down {
+  margin-left: 5px;
+  color: white;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+.dashboard__down:hover {
+  transform: translateY(5px);
+}
+.users__agent {
+  display: flex;
+  flex-direction: column;
+  /* background-color: orange; */
+  width: 200px;
+  align-items: flex-start;
+  justify-content: center;
+  height: auto;
+  position: relative;
+}
+.users__agent .dashboard__down {
+  /* color: red; */
+  margin-top: 5px;
+}
+.users {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  width: 250px;
+  align-items: flex-start;
+  justify-content: center;
+  height: auto;
+  position: relative;
+}
+.user__icon {
+  padding-top: 0px;
+  padding-right: 10px;
+  width: 25px;
+  height: 25px;
+  color: white;
+}
+.dashboard__icon {
+  width: 15px;
+  height: 15px;
+  color: white;
+}
+.dashboardUserToggle {
+  margin-top: 1px;
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+  padding-left: 10px;
+}
+.dashboard__agentsubnav {
+  padding-left: 20px;
+}
+.dashboardUserToggle span {
+  width: 100%;
+  padding-left: 25px;
+  padding-top: 5px;
+  color: #dbcbcb;
+  cursor: pointer;
+}
+.links {
+  margin-bottom: 5px;
+}
+.dashboardUserToggle span:hover {
+  color: white;
+}
+.dashboard__items span {
+  margin-left: 10px;
+  font-weight: 400;
+  color: white;
+}
+.dashboard__right {
+  flex: 0.8;
+  flex-direction: column;
+  height: auto;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 20px;
+  /* TAKE NOT I REMOVED THE PADDING TO BECAUSE OF THE SELECT LOCAL GOVT NOT TOUCHING THE TOP */
+  /* background-color: #f356f9; */
+}
+/* .dashboard__govtcontainerr {
+  width: 100%;
+  height: 200px;
+  padding: 25px 0px;
+} */
+.dashboard__govtcontainer {
+  width: 100%;
+  height: 200px;
+  padding: 25px 0px;
+}
+.dashboard__centered {
+  height: auto;
+  width: 90%;
+  display: flex;
+  padding: 10px 0px;
+  padding-bottom: 20px;
+}
+.dashboard__transactionhistory {
+  width: 60%;
+  height: 270px;
+  margin-top: 35px;
+  /* background-color: #6c56f9; */
+  display: flex;
+  flex-direction: column;
+}
+.dashboard__transactionhistory h3 {
+  margin-bottom: 20px;
+  color: grey;
+}
+
+.dashboard__transactionhistorycontainer {
+  width: 70%;
+  height: auto;
+  background-color: white;
+  border-radius: 25px;
+  padding: 25px;
+}
+.dashboard__transactionhistory1{
+  width: 60%;
+  height: 270px;
+  margin-top: 35px;
+  /* background-color: #6c56f9; */
+  display: flex;
+  flex-direction: column;
+}
+.dashboard__transactionhistory1 h3 {
+  margin-bottom: 20px;
+  color: grey;
+}
+
+.dashboard__transactionhistorycontainer1 {
+  width: 70%;
+  height: auto;
+  background-color: white;
+  border-radius: 25px;
+  padding: 25px;
+}
+.dashboard__wallet {
+  width: 60%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20%;
+  /* background-color: white; */
+}
+.dashboard__wallet h3 {
+  margin-bottom: 20px;
+  color: grey;
+}
+.dashboard__dashboardwalletcontainer {
+  width: 100%;
+  height: 250px;
+  background-color: white;
+  border-radius: 25px;
+}
+.dashboardwalletbal_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: 20px; */
+  padding: 25px;
+  font-size: 16px;
+}
+.dashboardwallet__holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 70%;
+  padding: 0px 25px;
+  font-size: 16px;
+  /* background-color: #419feb; */
+}
+
+.dashboardwalletcard-number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: 20px; */
+  background-color: rgb(247, 194, 95);
+  width: 100%;
+  padding: 5px 25px;
+  /* height: 50px; */
+  border-radius: 0px 0px 25px 25px;
+  font-size: 24px;
+}
+.dashboard__rightcontainer h1 {
+  color: grey;
+}
+
+.dashboard__top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.dashboard__top h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.dashboard__top h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.dashboard__topcontent1 {
+  width: 18%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: #267ea7;
+  padding: 10px 0px;
+}
+.dashboard__img1 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(166, 230, 166);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard__others1 {
+  margin-left: 10px;
+}
+.dashboard__others1 h2 {
+  color: #267ea7 !important;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.dashboard__others1 span {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: white;
+}
+/* .dashboard__others1 {
+  margin-left: 10px;
+} */
+.dashboard__topcontent2 {
+  padding: 10px 0px;
+  width: 18%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: #267ea7;
+}
+.dashboard__img2 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(241, 207, 134);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard__topcontent3 {
+  width: 20%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: #267ea7;
+}
+.dashboard__img3 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(255, 221, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard__topcontent4 {
+  width: 18%;
+  height: auto;
+  background-color: white;
+  /* background-color: #26a780; */
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 0px; */
+  border-radius: 10px;
+  color: #267ea7;
+}
+/*
+#b1dff5--5
+rgb(166, 230, 166) --4
+rgb(255, 221, 255) --3
+rgb(241, 207, 134) --2 */
+.dashboard__img4 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(166, 230, 166);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard__topcontent5 {
+  width: 18%;
+  height: auto;
+  background-color: white;
+  /* background-color: #267ea7; */
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 0px; */
+  border-radius: 10px;
+  color: #267ea7;
+}
+.dashboard__img5 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: #b1dff5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.revenueg__top span {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+.revenueg__bal {
+  background-color: white;
+  margin: 30px 0px;
+  margin-bottom: 100px;
+  padding: 5px;
+}
+.revenueg__serial {
+  font-size: 14px !important;
+}
+.revenueg__bal h6 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.revenueg__bal span {
+  font-weight: 800 !important;
+}
+/* create user form */
+.selectcreateuser__main {
+  display: none;
+}
+.showuserform {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  padding: 20px 25px;
+  /* background-color: #f356f9; */
+  align-items: center;
+  justify-content: flex-start;
+}
+.createuser__rightcontainer {
+  width: 30%;
+  height: auto;
+  background-color: #ebe9e9;
+  position: relative;
+}
+.createuser {
+  width: 100%;
+  background-color: white;
+  height: auto;
+}
+.createuser__form {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.form__control {
+  background-color: rgb(204, 204, 204);
+  border: none;
+  margin-top: 10px;
+  padding: 5px;
+}
+.form__control select {
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+/* create user form end */
+/* Select LGA */
+.selectlocalgovt__main {
+  display: none;
+}
+.showlocalgovt {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  padding: 100px 25px;
+  /* background-color: #f356f9; */
+  align-items: center;
+  /* justify-content: center; */
+}
+.selectlocalgovt__rightcontainer {
+  width: 50%;
+  height: 200px;
+  /* background-color: orange; */
+}
+.selectlocalgovt__select {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+.selectlocalgovt__select button {
+  width: 30%;
+  border: none;
+  border-radius: 25px;
+  background-color: #6c56f9;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.selectlocalgovt__form {
+  width: 100%;
+  background-color: white;
+}
+.selectlocalgovt__form select {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.selectlocalgovt__rightcontainer h1 {
+  color: grey;
+}
+.activebg {
+  background-color: #419feb;
+}
+.verify__container {
+  width: 100%;
+  padding-top: 100px;
+}
+.verify__form {
+  width: 100%;
+}
+.verify__formbody {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px;
+  /* background-color: white; */
+}
+.verify__formbody button {
+  margin-top: 13px;
+  padding: 10px;
+  background-color: #6c56f9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+}
+.verify__formbody button:hover {
+  background-color: rgb(108, 86, 249, 0.7);
+}
+.verify__formbody label {
+  margin-bottom: 5px;
+}
+.verify__mail {
+  width: 100%;
+  background-color: white;
+}
+.verify__mail input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+/* lOCAL GOVT PAGE. */
+.localgovt__main {
+  display: none;
+}
+.showlga {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  padding: 100px 25px;
+  /* background-color: #f356f9; */
+  align-items: center;
+  justify-content: center;
+}
+.localgovt__rightcontainer {
+  width: 95%;
+  height: auto;
+  /* background-color: orange; */
+}
+.localgovt__rightcontainer h1 {
+  color: grey;
+}
+.active {
+  background-color: #419feb;
+}
+.activecolor span {
+  color: white;
+}
+
+.localgovt__topinfo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.localgovt__bal {
+  width: 100%;
+  height: 250px;
+  /* background-color: rgb(212, 168, 86); */
+  background-color: orange;
+  color: white;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.dashboard__localgovtcontainer {
+  width: 90%;
+  height: 200px;
+}
+.dashboard__localgovtcentered {
+  /* background-color: #f7c744; */
+  height: 300px;
+  width: 90%;
+  display: flex;
+
+  /* padding: 25px; */
+}
+.dashboard__localgovthistory {
+  width: 60%;
+  height: 270px;
+  /* background-color: #6c56f9; */
+  display: flex;
+  flex-direction: column;
+}
+.dashboard__localgovthistory h3 {
+  margin-bottom: 20px;
+  color: grey;
+}
+.dashboard__localgovtCenterHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.dashboard__localgovtCenterHeader h2 {
+  font-size: 16px;
+  margin-right: 100px;
+}
+.dashboard__localgovtCenterHeader h3 {
+  font-size: 16px;
+  /* margin-right: 120px; */
+}
+.dashboardtransactionagent__th {
+  width: 25%;
+}
+.dashboard__localgovthistorycontainer {
+  width: 90%;
+  height: 250px;
+  background-color: white;
+  border-radius: 25px;
+  padding: 25px;
+}
+.dashboard__wallet {
+  width: 40%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: white; */
+}
+.dashboard__wallet h3 {
+  margin-bottom: 20px;
+  color: grey;
+}
+.dashboard__dashboardwalletcontainer {
+  width: 100%;
+  height: 250px;
+  background-color: white;
+  border-radius: 25px;
+}
+.dashboardwalletbal_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: 20px; */
+  padding: 25px;
+  font-size: 16px;
+}
+.dashboardwallet__holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 70%;
+  padding: 0px 25px;
+  font-size: 16px;
+  /* background-color: #419feb; */
+}
+
+.dashboardwalletcard-number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: 20px; */
+  background-color: rgb(247, 194, 95);
+  width: 100%;
+  padding: 5px 25px;
+  /* height: 50px; */
+  border-radius: 0px 0px 25px 25px;
+  font-size: 24px;
+}
+.dashboard__rightcontainer h1 {
+  color: grey;
+}
+
+.dashboard__localgovttop {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.dashboard__localgovttop h2 {
+  font-size: 18px;
+}
+.dashboard__localgovttop h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* .dashboard__topcontent1 {
+  width: 15%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: #267ea7;
+  padding: 10px 0px;
+}
+.dashboard__img1 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(166, 230, 166);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard__others1 {
+  margin-left: 10px;
+} */
+.dashboard__localgovttopcontent1 {
+  width: 15%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7;
+  padding: 10px 0px;
+}
+.dashboard__localgovtimg1 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(166, 230, 166);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard__localgovtothers1 {
+  margin-left: 10px;
+}
+.dashboard__localgovttopcontent2 {
+  padding: 10px 0px;
+  width: 15%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7;
+}
+.dashboard__localgovtimg2 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(241, 207, 134);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*
+#b1dff5--5
+rgb(166, 230, 166) --4
+rgb(255, 221, 255) --3
+rgb(241, 207, 134) --2 */
+.dashboard__localgovtimg3 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(255, 221, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard__localgovtimg4 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(166, 230, 166);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard__localgovtimg5 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: #b1dff5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard__localgovttopcontent3 {
+  width: 15%;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7;
+}
+.dashboard__localgovttopcontent4 {
+  width: 15%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 0px; */
+  border-radius: 10px;
+  color: #267ea7;
+}
+.dashboard__localgovttopcontent5 {
+  width: 15%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 0px; */
+  border-radius: 10px;
+  color: #267ea7;
+}
+/* lOCAL GOVT PAGE. END HERE */
+
+/* ....................................... */
+/* ....................................... */
+/* ....................................... */
+/* ....................................... */
+/* ....................................... */
+
+/* AGENT SECTION */
+/* Agent Css */
+.agent {
+  width: 100%;
+  height: auto;
+}
+.agent__container {
+  width: 100%;
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  height: auto;
+  /* min-height: 130vh; */
+}
+.agent__left {
+  flex: 0.2;
+  height: auto;
+  /* background-color: #6c56f9; */
+  /* background-color: #e7e2e2; */
+  /* background-color: rgb(108, 86, 249); */
+}
+.agent__itemscontainer {
+  width: 100%;
+  padding: 25px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  /* border: 2px solid grey; */
+  margin-top: 50px;
+}
+.agent__items {
+  padding: 10px 15px;
+  height: 50px;
+  background-color: rgb(108, 86, 249);
+  width: 250px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  margin-top: 10px;
+}
+.agent__items:hover {
+  background-color: rgb(108, 86, 249, 0.7);
+  /* background-color: rgb(160, 153, 204, 0.7); */
+}
+.agent__itemsclients {
+  padding: 10px 15px;
+  height: auto;
+  background-color: rgb(108, 86, 249);
+  width: 250px;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+}
+.agent__agentrecord {
+  padding: 5px 0px;
+  height: auto;
+  background-color: rgb(108, 86, 249);
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3); */
+  margin-top: 0px;
+}
+.agent__users {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agentUsers {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* background-color: orange; */
+  padding: 5px 0px;
+  width: 100%;
+}
+.agentUsers span {
+  color: white;
+}
+.agent__down {
+  margin-left: 5px;
+  color: white;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+.agent__down:hover {
+  transform: translateY(5px);
+}
+.users__agent {
+  display: flex;
+  flex-direction: column;
+  /* background-color: orange; */
+  width: 200px;
+  align-items: flex-start;
+  justify-content: center;
+  height: auto;
+  position: relative;
+}
+.users__agent .agent__down {
+  /* color: red; */
+  margin-top: 5px;
+}
+.users {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  width: 250px;
+  align-items: flex-start;
+  justify-content: center;
+  height: auto;
+  position: relative;
+}
+.user__icon {
+  padding-top: 0px;
+  padding-right: 10px;
+  width: 25px;
+  height: 25px;
+  color: white;
+}
+.agent__icon {
+  width: 15px;
+  height: 15px;
+  color: white;
+}
+.agentUserToggle {
+  margin-top: 1px;
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+.agent__agentsubnav {
+  padding-left: 20px;
+}
+.agentUserToggle span {
+  width: 100%;
+  padding-left: 25px;
+  padding-top: 5px;
+  color: #dbcbcb;
+  cursor: pointer;
+}
+.links {
+  margin-bottom: 5px;
+}
+.agentUserToggle span:hover {
+  color: white;
+}
+.agent__items span {
+  margin-left: 10px;
+  font-weight: 400;
+  color: white;
+}
+/* Default Agent Dashboard */
+.agent__govtmain {
+  display: none;
+}
+.showmain {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+  /* background-color: #f356f9; */
+}
+.adjust {
+  margin: 0px !important;
+  width: 90%;
+  background-color: #419feb !important;
+}
+.active {
+  background-color: #419feb;
+}
+
+.agent__govtcontainer {
+  width: 90%;
+  height: 200px;
+  /* background-color: #267ea7; */
+  /* background-color: orange; */
+  /* padding: 25px; */
+}
+
+.agent__centered {
+  /* background-color: #f7c744; */
+  height: 300px;
+  width: 90%;
+  display: flex;
+
+  /* padding: 25px; */
+}
+.agent__transactionhistory {
+  width: 60%;
+  height: 270px;
+  /* background-color: #6c56f9; */
+  display: flex;
+  flex-direction: column;
+}
+.agent__transactionhistory h3 {
+  margin-bottom: 20px;
+  color: grey;
+}
+.agent__transactionCenterHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.agent__transactionCenterHeader h2 {
+  font-size: 16px;
+  margin-right: 100px;
+}
+.agent__transactionCenterHeader h3 {
+  font-size: 16px;
+  /* margin-right: 120px; */
+}
+.agenttransactionagent__th {
+  width: 25%;
+}
+.agent__transactionhistorycontainer {
+  width: 90%;
+  height: auto;
+  background-color: white;
+  border-radius: 25px;
+  padding: 25px;
+}
+.agent__wallet {
+  width: 40%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: white; */
+}
+.agent__wallet h3 {
+  margin-bottom: 20px;
+  color: grey;
+}
+.agent__agentwalletcontainer {
+  width: 100%;
+  height: 250px;
+  background-color: white;
+  border-radius: 25px;
+}
+.agentwalletbal_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: 20px; */
+  padding: 25px;
+  font-size: 16px;
+}
+.agentwallet__holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 70%;
+  padding: 0px 25px;
+  font-size: 16px;
+  /* background-color: #419feb; */
+}
+
+.agentwalletcard-number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: 20px; */
+  background-color: rgb(247, 194, 95);
+  width: 100%;
+  padding: 5px 25px;
+  /* height: 50px; */
+  border-radius: 0px 0px 25px 25px;
+  font-size: 24px;
+}
+.agent__rightcontainer h1 {
+  color: grey;
+}
+.verify__container {
+  width: 100%;
+  padding-top: 100px;
+}
+.verify__form {
+  width: 100%;
+}
+.verify__formbody {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px;
+  /* background-color: white; */
+}
+.verify__formbody button {
+  margin-top: 13px;
+  padding: 10px;
+  background-color: #6c56f9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+}
+.verify__formbody button:hover {
+  background-color: rgb(108, 86, 249, 0.7);
+}
+.verify__formbody label {
+  margin-bottom: 5px;
+}
+.verify__mail {
+  width: 100%;
+  background-color: white;
+}
+.verify__mail input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.agent__top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.agent__top h2 {
+  font-size: 18px;
+}
+.agent__top h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.agent__topcontent1 {
+  width: 15%;
+  height: auto !important;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7 !important;
+  padding: 0px 0px;
+}
+.agent__agentimg1 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(166, 230, 166);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent__agentimg2 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(241, 207, 134);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent__agentimg3 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(255, 221, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*
+#b1dff5--5
+rgb(166, 230, 166) --4
+rgb(255, 221, 255) --3
+rgb(241, 207, 134) --2 */
+/* .agent__agentothers1 {
+  margin-left: 10px;
+} */
+.agent__otherinfo1 {
+  margin-left: 10px;
+}
+.agent__otherinfo1 h2 {
+  color: #267ea7;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.agent__otherinfo1 span {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.agent__topcontent2 {
+  padding: 0px 0px;
+  width: 15%;
+  height: auto !important;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7 !important;
+}
+.agent__topcontent3 {
+  width: 15%;
+  height: auto !important;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7 !important;
+}
+
+.revenueg__top span {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+.revenueg__bal {
+  background-color: white;
+  margin: 30px 0px;
+  margin-bottom: 100px;
+  padding: 5px;
+}
+.revenueg__serial {
+  font-size: 14px !important;
+}
+.revenueg__bal h6 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.revenueg__bal span {
+  font-weight: 800 !important;
+}
+
+/* Agent Creditrecords styles */
+.agent__creditrecordmain {
+  display: none;
+}
+.agent__creditrecordcontainer {
+  width: 90%;
+  height: auto;
+}
+.agent__creditrecordcontainer h2 {
+  padding: 25px 0px;
+  color: rgb(175, 174, 174);
+}
+.showcreditrecord {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+  /* background-color: #b2a2b3; */
+}
+
+.agent__credittop {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+.agent__credittop h2 {
+  font-size: 18px;
+  color: white;
+}
+.agent__credittop h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* .agent__topcontent1 {
+  width: 15%;
+  height: auto !important;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: #267ea7 !important;
+  padding: 10px 0px;
+}
+.agent__agentimg1 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(166, 230, 166);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.agent__creditagentothers1 {
+  margin-left: 10px;
+  /* background-color: red; */
+}
+.agent__creditagentothers1 h2 {
+  color: #267ea7 !important;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.agent__creditagentothers1 span {
+  font-size: 18px;
+  font-weight: 600;
+}
+.agent__credittopcontent1 {
+  width: 25%;
+  height: 130px;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7 !important;
+  padding: 10px 0px;
+}
+
+.agent__creditagentimg1 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(166, 230, 166);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent__creditagentimg2 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(241, 207, 134);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent__creditagentimg3 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(255, 221, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.agent__credittopcontent2 {
+  padding: 10px 0px;
+  width: 25%;
+  height: 130px;
+  background-color: #f356f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: white;
+}
+.agent__credittopcontent2 {
+  padding: 10px 0px;
+  width: 15%;
+  height: 130px !important;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7 !important;
+}
+.agent__credittopcontent3 {
+  width: 25%;
+  height: 130px !important;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7 !important;
+}
+
+.showcreditrecord {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+  /* background-color: #b2a2b3; */
+}
+
+/* TICKET MANAGEMENT */
+/* Ticket created */
+/* Ticket created */
+.govt__createticketmain {
+  display: none;
+}
+.govt__createticketcontainer {
+  width: 90%;
+  height: auto;
+  /* background-color: orange; */
+}
+.govt__createticketcontainer h2 {
+  padding: 25px 0px;
+  color: rgb(175, 174, 174);
+  text-align: center;
+}
+.showticketcreated {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+  /* background-color: #b2a2b3; */
+}
+
+.govt__createtickettop {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  /* background-color: #6c56f9; */
+}
+
+.govt__createticketform {
+  background-color: rgb(255, 255, 255) !important;
+  height: 400px;
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  flex-direction: column;
+  background-color: #b1dff5 !important;
+}
+.govtcreateticketform__form {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  flex-direction: column;
+}
+.createticket__formcontrol {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+  border-radius: 15px;
+}
+.createticket__formcontrol button {
+  border: none;
+  background-color: #6c56f9 !important;
+  color: white;
+  padding: 10px;
+}
+.createticket__formcontrol input {
+  width: 100%;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+.creditsubagent__receipt {
+  width: 100%;
+  display: flex;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+/* Ticket Update */
+.govt__updateticketmain {
+  display: none;
+}
+.govt__updateticketcontainer {
+  width: 90%;
+  height: auto;
+  /* background-color: orange; */
+}
+.govt__updateticketcontainer h2 {
+  padding: 25px 0px;
+  color: rgb(175, 174, 174);
+  text-align: center;
+}
+.showticketupdated {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+  /* background-color: #b2a2b3; */
+}
+
+.govt__updatetickettop {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  /* background-color: #6c56f9; */
+}
+
+.govt__updateticketform {
+  background-color: rgb(255, 255, 255) !important;
+  height: 400px;
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  flex-direction: column;
+  background-color: #b1dff5 !important;
+}
+.govtupdateticketform__form {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  flex-direction: column;
+}
+.updateticket__formcontrol {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+  border-radius: 15px;
+}
+.updateticket__formcontrol1 {
+  width: 100%;
+  /* background-color: white; */
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+  border-radius: 15px;
+}
+.updateticket__formcontrol button {
+  border: none;
+  background-color: #6c56f9 !important;
+  color: white;
+  padding: 10px;
+}
+.updateticket__formcontrol input {
+  width: 100%;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+.creditsubagent__receipt {
+  width: 100%;
+  display: flex;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+/* Credit Govt purse */
+.agent__creditgovtmain {
+  display: none;
+}
+.agent__creditgovtcontainer {
+  width: 90%;
+  height: auto;
+  /* background-color: orange; */
+}
+.agent__creditgovtcontainer h2 {
+  padding: 25px 0px;
+  color: rgb(175, 174, 174);
+  text-align: center;
+}
+.showcreditgovt {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+  /* background-color: #b2a2b3; */
+}
+
+.agent__creditgovttop {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  /* background-color: #6c56f9; */
+}
+
+.creditgovtinfo {
+  background-color: rgb(255, 255, 255) !important;
+  height: 400px;
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  flex-direction: column;
+  background-color: #b1dff5 !important;
+}
+.creditgovtinfo__form {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  flex-direction: column;
+}
+.creditgovt__formcontrol {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+  border-radius: 15px;
+}
+.creditgovt__formcontrol1 {
+  width: 40%;
+  display: flex;
+  margin: 20px 0px;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+.remita,
+.paystack {
+  background-color: #6c56f9;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.creditgovt__formcontrol button {
+  border: none;
+  background-color: #6c56f9 !important;
+  color: white;
+  padding: 10px;
+}
+.creditgovt__formcontrol input {
+  width: 100%;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+.creditsubagent__receipt {
+  width: 100%;
+  display: flex;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+/* PRINT TICKET MANAGEMENT */
+/* bULK PRINTING */
+/* SINGLE PRINTING */
+.subagent__bulkprintmain {
+  display: none;
+}
+.subagent__bulkprintcontainer {
+  width: 90%;
+  height: auto;
+  /* background-color: orange; */
+}
+.subagent__bulkprintcontainer h2 {
+  padding: 25px 0px;
+  color: rgb(175, 174, 174);
+  text-align: center;
+}
+.showbulkprint {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+  /* background-color: #b2a2b3; */
+}
+
+.subagent__bulkprinttop {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  /* background-color: #6c56f9; */
+}
+
+.subagent__bulkprintform {
+  /* background-color: rgb(255, 255, 255) !important; */
+  height: 400px;
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  flex-direction: column;
+  border: 1px solid #6c56f9;
+  /* background-color: #b1dff5 !important; */
+}
+.agentbulkprintform__form {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  flex-direction: column;
+}
+.agentbulkprint__formcontrol1 {
+  width: 100%;
+  /* background-color: white; */
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+  border-radius: 15px;
+}
+.agentbulkprint__formcontrol {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+  border-radius: 15px;
+}
+.agentbulkprint__formcontrol button {
+  border: none;
+  background-color: #6c56f9 !important;
+  color: white;
+  padding: 10px;
+}
+.agentbulkprint__formcontrol input {
+  width: 100%;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+.creditsubagent__receipt {
+  width: 100%;
+  display: flex;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+/* Single Print */
+.subagent__singleprintmain {
+  display: none;
+}
+.subagent__singleprintcontainer {
+  width: 90%;
+  height: auto;
+  /* background-color: orange; */
+}
+.subagent__singleprintcontainer h2 {
+  padding: 25px 0px;
+  color: rgb(175, 174, 174);
+  text-align: center;
+}
+.showsingleprint {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+  /* background-color: #b2a2b3; */
+}
+
+.subagent__singleprintttop {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  /* background-color: #6c56f9; */
+}
+
+.subagent__singleprintform {
+  /* background-color: rgb(255, 255, 255) !important; */
+  height: 400px;
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  flex-direction: column;
+  border: 1px solid #6c56f9;
+  /* background-color: #b1dff5 !important; */
+}
+.subagentsingleprintform__form {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  flex-direction: column;
+}
+.updateticket__formcontrol {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+  border-radius: 15px;
+}
+.singleprint__formcontrol1 {
+  width: 100%;
+  /* background-color: white; */
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+  border-radius: 15px;
+}
+.updateticket__formcontrol button {
+  border: none;
+  background-color: #6c56f9 !important;
+  color: white;
+  padding: 10px;
+}
+.updateticket__formcontrol input {
+  width: 100%;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+.creditsubagent__receipt {
+  width: 100%;
+  display: flex;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+/* ManageSubAgents */
+.agent__managesubagentmain {
+  display: none;
+}
+.agent__managesubagentcontainer {
+  width: 90%;
+  height: auto;
+  /* background-color: orange; */
+}
+.agent__managesubagentcontainer h2 {
+  padding: 25px 0px;
+  color: rgb(175, 174, 174);
+  text-align: center;
+}
+.showmanagesubagent {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+  /* background-color: #b2a2b3; */
+}
+
+.agent__managesubagenttop {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  background-color: #6c56f9;
+  flex-direction: column;
+}
+
+/* Wallet Balance style*/
+
+.agent__walletbalancemain {
+  display: none;
+}
+.agent__walletbalancecontainer {
+  width: 90%;
+  height: auto;
+}
+.agent__walletbalancecontainer h2 {
+  padding: 25px 0px;
+}
+.agent__walletbalancetop {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+.agent__credittop h2 {
+  font-size: 18px;
+}
+.agent__credittop h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.agent__credittopcontent1 {
+  width: 25%;
+  height: 130px;
+  background-color: #6c56f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: white;
+  padding: 10px 0px;
+}
+
+.agent__credittopcontent2 {
+  padding: 10px 0px;
+  width: 25%;
+  height: 130px;
+  background-color: #f356f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: white;
+}
+.agent__credittopcontent3 {
+  width: 25%;
+  height: 130px;
+  background-color: #f7c744;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: white;
+}
+.agent__credittopcontent4 {
+  width: 25%;
+  height: 130px;
+  background-color: #26a780;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 0px; */
+  border-radius: 10px;
+  color: white;
+}
+.agent__credittopcontent5 {
+  width: 15%;
+  height: 100px;
+  background-color: #267ea7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 0px; */
+  border-radius: 10px;
+  color: white;
+}
+.showwalletbalance {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+}
+
+/* Wallet balance ends here */
+
+/* Agent information style */
+.agent__agentinformationmain {
+  display: none;
+}
+.agent__agentinformationcontainer {
+  width: 90%;
+  height: auto;
+}
+
+.showagentinfo {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+}
+
+.agent__informationtop {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.agent__informationtop h2 {
+  font-size: 36px;
+  padding: 25px;
+  text-align: center;
+  color: rgb(175, 174, 174);
+}
+.agent__informationtop h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.agent__infocontainer {
+  width: 100%;
+  flex-direction: column;
+  display: none;
+}
+.agent__infocontainer h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.agent__agentinformation {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  margin-top: 100px;
+}
+.agent__agentinfo1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 99%;
+  margin-left: 0px;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+.agent__agentinfo1 h3 {
+  width: 250px;
+  font-weight: 500;
+}
+.agent__agentinfo1 span {
+  width: 250px;
+  font-size: 14px;
+}
+.agent__agentinfo1 button {
+  width: 100px;
+  background-color: #6c56f9;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Agent Record */
+/* Transaction History */
+.agent__agenttransationhistorymain {
+  display: none;
+}
+.agent__agentatransationhistorycontainer {
+  width: 90%;
+  height: auto;
+  /* background-color: #6c56f9; */
+  /* background-color: orange; */
+  /* padding: 25px; */
+}
+
+.showagent {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+  /* background-color: #b2a2b3; */
+}
+
+.agent__transationhistorytop {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.agent__transationhistorytop h2 {
+  font-size: 36px;
+  padding: 25px;
+  text-align: center;
+  /* margin-left: 80px; */
+}
+.agent__transationhistorytop h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.agent__infocontainer {
+  width: 100%;
+  /* display: flex; */
+  flex-direction: column;
+  display: none;
+}
+.agent__infocontainer h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.agent__transationhistory {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: white;
+  border-radius: 25px;
+  margin-top: 50px;
+  overflow-y: auto;
+  padding-bottom: 25px;
+}
+.agent__transationhistoryheader {
+  display: flex;
+  width: 100%;
+  color: black;
+  align-items: center;
+  /* justify-content: space-around; */
+  padding-left: 25px;
+  font-weight: 700;
+}
+.agent__transationhistorydata {
+  display: flex;
+  width: 100%;
+  color: black;
+  align-items: center;
+  /* justify-content: space-around; */
+  margin-top: 20px;
+  padding-left: 25px;
+}
+.agent_transactiondata1 {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent_transactiondata2 {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent_transactiondata3 {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent_transactiondata4 {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent_transactiondata5 {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ticket Printed */
+.agent__agentprintedticketmain {
+  display: none;
+}
+.agent__agentaprintedticketcontainer {
+  width: 90%;
+  height: auto;
+}
+
+.showagentprintedticket {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+}
+
+.agent__printedtickettop {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.agent__printedtickettop h2 {
+  font-size: 36px;
+  padding: 25px;
+  text-align: center;
+  /* margin-left: 80px; */
+}
+.agent__printedtickettop h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.agent__printedticket {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: white;
+  border-radius: 25px;
+  margin-top: 50px;
+  overflow-y: auto;
+  padding-bottom: 25px;
+}
+.agent__printedticketheader {
+  display: flex;
+  width: 100%;
+  color: black;
+  align-items: center;
+  /* justify-content: space-around; */
+  padding-left: 25px;
+  font-weight: 700;
+}
+.agent__printedticketdata {
+  display: flex;
+  width: 100%;
+  color: black;
+  align-items: center;
+  /* justify-content: space-around; */
+  margin-top: 20px;
+  padding-left: 25px;
+}
+.agent_printedticketdata1 {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent_printedticketdata2 {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent_printedticketdata3 {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent_printedticketdata4 {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent_printedticketdata5 {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Reverse Ticket */
+.agent__agentreverseticketmain {
+  display: none;
+}
+.agent__agentreverseticketcontainer {
+  width: 90%;
+  height: auto;
+  /* background-color: #6c56f9; */
+  /* background-color: orange; */
+  /* padding: 25px; */
+}
+
+.showagentreverseticket {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+  /* background-color: #b2a2b3; */
+}
+
+.agent__reversetickettop {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.agent__reversetickettop h2 {
+  font-size: 36px;
+  padding: 25px;
+  text-align: center;
+  /* margin-left: 80px; */
+}
+.agent__reversetickettop h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.agent__reverseticket {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: white;
+  border-radius: 25px;
+  margin-top: 50px;
+  overflow-y: auto;
+  padding-bottom: 25px;
+}
+.agent__reverseticketheader {
+  display: flex;
+  width: 100%;
+  color: grey;
+  align-items: center;
+  /* justify-content: space-around; */
+  padding-left: 25px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.agent__reverseticketdata {
+  display: flex;
+  width: 100%;
+  color: black;
+  align-items: center;
+  /* justify-content: space-around; */
+  margin-top: 20px;
+  padding-left: 25px;
+}
+.agent_reverseticketdata1 {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent_reverseticketdata2 {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent__reverseticketdata button {
+  background-color: #6c56f9;
+  padding: 5px 10px;
+  color: white;
+  border: none;
+}
+.agent__reverseticketdata button:hover {
+  background-color: rgb(108, 86, 249, 0.7);
+}
+.agent_reverseticketdata3 {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent_reverseticketdata4 {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent_reverseticketdata5 {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent_reverseticketdata6 {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent_reverseticketdata7 {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* All Credit */
+
+.agent__allcreditmain {
+  display: none;
+}
+.agent__allcreditcontainer {
+  width: 90%;
+  height: auto;
+}
+.agent__allcreditcontainer h2 {
+  padding: 25px 0px;
+}
+.agent__allcredittop {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.agent__allcredittop h2 {
+  font-size: 18px;
+  margin: 0px;
+  padding: 0;
+}
+.agent__allcredittop span {
+  font-size: 14px;
+  font-weight: 700;
+}
+.agent__allcredittop h6 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.agent__allcreditagentothers1 {
+  margin-left: 10px;
+}
+.agent__allcreditagentothers1 h2 {
+  color: #267ea7 !important;
+  padding: 0px !important;
+  margin: 0px !important;
+  font-size: 14px !important;
+}
+.agent__allcreditagentothers1 span {
+  font-size: 16px;
+  font-weight: 600;
+  background-color: white;
+}
+/* .agent__creditagentothers1 h2 {
+  color: #267ea7 !important;
+} */
+/*
+#b1dff5--5
+rgb(166, 230, 166) --4
+rgb(255, 221, 255) --3
+rgb(241, 207, 134) --2 */
+
+.agent__allcreditagentimg1 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(166, 230, 166);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent__allcreditagentimg2 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(241, 207, 134);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent__allcreditagentimg3 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(255, 221, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent__allcreditagentimg4 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(166, 230, 166);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent__allcreditagentimg5 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: #b1dff5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.agent__allcredittopcontent1 {
+  width: 18%;
+  height: 100px;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7 !important;
+  padding: 10px 0px;
+}
+
+.agent__allcredittopcontent2 {
+  padding: 10px 0px;
+  width: 18%;
+  height: 100px;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7 !important;
+  padding: 10px 0px;
+}
+.agent__allcredittopcontent3 {
+  width: 18%;
+  height: 100px;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7 !important;
+  padding: 10px 0px;
+}
+.agent__allcredittopcontent4 {
+  width: 18%;
+  height: 100px;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7 !important;
+  padding: 10px 0px;
+}
+.agent__allcredittopcontent5 {
+  width: 18%;
+  height: 100px;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7 !important;
+  padding: 10px 0px;
+}
+.showagentallcredit {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+  /* background-color: #b2a2b3; */
+}
+
+/* AgentAllDebit */
+.agent__alldebitmain {
+  display: none;
+}
+.showagentalldebit {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+  /* background-color: #b2a2b3; */
+}
+.agent__alldebitcontainer {
+  width: 90%;
+  height: auto;
+}
+.agent__alldebitcontainer h2 {
+  padding: 25px 0px;
+}
+.agent__alldebittop {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.agent__alldebittop h2 {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+.agent__alldebittop h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.agent__alldebitothers1 {
+  margin-left: 10px;
+}
+.agent__alldebitothers1 h2 {
+  color: #267ea7 !important;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.agent__alldebitothers1 span {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: white;
+}
+/* .agent__creditagentothers1 h2 {
+  color: #267ea7 !important;
+} */
+/*
+#b1dff5--5
+rgb(166, 230, 166) --4
+rgb(255, 221, 255) --3
+rgb(241, 207, 134) --2 */
+
+.agent__alldebitimg1 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(166, 230, 166);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent__alldebitimg2 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(241, 207, 134);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent__alldebitimg3 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(255, 221, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.agent__alldebittopcontent1 {
+  width: 25%;
+  height: 130px;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7 !important;
+  padding: 10px 0px;
+}
+
+.agent__alldebittopcontent2 {
+  padding: 10px 0px;
+  width: 25%;
+  height: 130px;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7 !important;
+  padding: 10px 0px;
+}
+.agent__alldebittopcontent3 {
+  width: 25%;
+  height: 130px;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7 !important;
+  padding: 10px 0px;
+}
+
+/* All Deposite */
+
+.agent__alldepositmain {
+  display: none;
+}
+.showagentdeposit {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+  /* background-color: #b2a2b3; */
+}
+.agent__alldepositcontainer {
+  width: 90%;
+  height: auto;
+}
+.agent__alldepositcontainer h2 {
+  padding: 25px 0px;
+}
+.agent__alldeposittop {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.agent__alldeposittop h2 {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+.agent__alldeposittop h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.agent__alldeposite1 {
+  margin-left: 10px;
+}
+.agent__alldeposite1 h2 {
+  color: #267ea7 !important;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.agent__alldeposite1 span {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: white;
+}
+/* .agent__creditagentothers1 h2 {
+  color: #267ea7 !important;
+} */
+/*
+#b1dff5--5
+rgb(166, 230, 166) --4
+rgb(255, 221, 255) --3
+rgb(241, 207, 134) --2 */
+
+.agent__alldepositimg1 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(166, 230, 166);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent__alldepositimg2 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(241, 207, 134);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent__alldepositimg3 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(255, 221, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.agent__alldeposittopcontent1 {
+  width: 25%;
+  height: 130px;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7 !important;
+  padding: 10px 0px;
+}
+
+.agent__alldeposittopcontent2 {
+  padding: 10px 0px;
+  width: 25%;
+  height: 130px;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7 !important;
+  padding: 10px 0px;
+}
+.agent__alldeposittopcontent3 {
+  width: 25%;
+  height: 130px;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7 !important;
+  padding: 10px 0px;
+}
+
+.agent__alldeposittopcontent1 {
+  width: 25%;
+  height: 130px;
+  background-color: #6c56f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: white;
+  padding: 10px 0px;
+}
+
+.agent__alldeposittopcontent2 {
+  padding: 10px 0px;
+  width: 25%;
+  height: 130px;
+  background-color: #f356f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: white;
+}
+.agent__alldeposittopcontent3 {
+  width: 25%;
+  height: 130px;
+  background-color: #f7c744;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: white;
+}
+
+/* Wallet Balance */
+
+.agent__walletbalance {
+  display: none;
+}
+.showagentwallet {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+}
+
+.agent__walletbalancecontainer {
+  width: 90%;
+  height: 200px;
+}
+
+.agent__walletbalancecentered {
+  height: 300px;
+  width: 90%;
+  display: flex;
+}
+.agent__walletbalancehistory {
+  width: 60%;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+}
+.agent__walletbalancehistory h3 {
+  margin-bottom: 20px;
+  color: grey;
+}
+.agent__walletbalanceCenterHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.agent__walletbalanceCenterHeader h2 {
+  font-size: 16px;
+  margin-right: 100px;
+  color: rgb(175, 174, 174);
+}
+.agent__walletbalanceCenterHeader h3 {
+  font-size: 16px;
+  color: rgb(175, 174, 174);
+}
+.agentwalletbalanceagent__th {
+  width: 25%;
+}
+.agent__walletbalancehistorycontainer {
+  width: 90%;
+  height: 250px;
+  background-color: white;
+  border-radius: 25px;
+  padding: 25px;
+}
+.agent__walletbalance {
+  width: 40%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: white; */
+}
+.agent__walletbalance h3 {
+  margin-bottom: 20px;
+  color: grey;
+}
+.agent__agentwalletbalancecontainer {
+  width: 100%;
+  height: 250px;
+  background-color: white;
+  border-radius: 25px;
+}
+.agentwalletbalance_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: 20px; */
+  padding: 25px;
+  font-size: 16px;
+}
+.agentwalletbalance__holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 70%;
+  padding: 0px 25px;
+  font-size: 16px;
+  /* background-color: #419feb; */
+}
+
+.agentwalletbalancecard-number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: 20px; */
+  background-color: rgb(247, 194, 95);
+  width: 100%;
+  padding: 5px 25px;
+  /* height: 50px; */
+  border-radius: 0px 0px 25px 25px;
+  font-size: 24px;
+}
+.agent__rightcontainer h1 {
+  color: grey;
+}
+.agent__walletbalancetop {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.agent__walletbalancetop h2 {
+  font-size: 18px;
+  color: white !important;
+}
+.agent__walletbalancetop h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.agent__walletbalancetopcontent1 {
+  width: 15%;
+  height: 100px;
+  background-color: #6c56f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 0px;
+}
+
+.agent__walletbalancetopcontent2 {
+  padding: 10px 0px;
+  width: 15%;
+  height: 100px;
+  background-color: #f356f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: white;
+}
+
+.agent__walletbalancetopcontent4 {
+  width: 15%;
+  height: 100px;
+  background-color: #26a780;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: white;
+}
+
+/* Agent Transaction */
+.agent__agenttransactionmain {
+  display: none;
+}
+.agent__agenttransactioncontainer {
+  width: 90%;
+  height: auto;
+}
+.agent__agenttransactioncontainer h2 {
+  padding: 25px 0px;
+  color: rgb(175, 174, 174);
+}
+.agent__agenttransactiontop {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.agent__agenttransactiontop h2 {
+  font-size: 18px;
+  margin: 0px;
+  padding: 0;
+  color: white !important;
+}
+.agent__agenttransactiontop span {
+  font-size: 14px;
+  font-weight: 700;
+}
+.agent__agenttransactiontop h6 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.agent__alltransaction1 {
+  margin-left: 10px;
+}
+.agent__alltransaction1 h2 {
+  color: #267ea7 !important;
+  /* padding: 0px !important;
+  margin: 0px !important; */
+}
+.agent__alltransaction1 span {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: white;
+}
+/* .agent__creditagentothers1 h2 {
+  color: #267ea7 !important;
+} */
+/*
+#b1dff5--5
+rgb(166, 230, 166) --4
+rgb(255, 221, 255) --3
+rgb(241, 207, 134) --2 */
+
+.agent__agenttransactionimg1 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(166, 230, 166);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent__agenttransactionimg2 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(241, 207, 134);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent__agenttransactionimg3 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(255, 221, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.agent__agenttransactionimg4 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(134, 158, 235);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.agent__agenttransactiontopcontent1 {
+  width: 20%;
+  height: 100px;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7 !important;
+  padding: 10px 0px;
+}
+
+.agent__agenttransactiontopcontent2 {
+  padding: 10px 0px;
+  width: 20%;
+  height: 100px;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7 !important;
+  padding: 10px 0px;
+}
+.agent__agenttransactiontopcontent3 {
+  width: 20%;
+  height: 100px;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7 !important;
+  padding: 10px 0px;
+}
+.agent__agenttransactiontopcontent4 {
+  width: 20%;
+  height: 100px;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7 !important;
+  padding: 10px 0px;
+}
+.agent__agenttransactiontopcontent5 {
+  width: 18%;
+  height: 100px;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7 !important;
+  padding: 10px 0px;
+}
+.showagenttransaction {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+}
+
+/* Agent CreditSuubAgent */
+.agent__creditsubagentmain {
+  display: none;
+}
+.agent__creditsubagentcontainerr {
+  width: 100%;
+  height: auto;
+}
+.agent__creditsubagentcontainerr h2 {
+  padding: 25px 0px;
+  text-align: center;
+  color: rgb(175, 174, 174);
+}
+.showcreditsubagent {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+}
+
+.agent__creditsubagenttop {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  /* background-color: #419feb; */
+}
+.creditsubagentinfoo {
+  background-color: rgb(255, 255, 255) !important;
+  height: 400px;
+  width: 60%;
+  display: flex;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  padding: 10px;
+  flex-direction: column;
+  /* background-color: #b1dff5 !important; */
+}
+
+/* .creditsubagent__formcontrol {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+  border-radius: 15px;
+}
+.creditsubagent__formcontrol button {
+  border: none;
+  background-color: #6c56f9 !important;
+  color: white;
+  padding: 10px;
+}
+.creditsubagent__formcontrol input {
+  width: 100%;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+.creditsubagent__receipt {
+  width: 100%;
+  display: flex;
+  font-weight: 600;
+  padding-left: 10px;
+} */
+
+/* Agent Previous Balance */
+.agent__previousbalmain {
+  display: none;
+}
+.agent__agentpreviousbalcontainer {
+  width: 90%;
+  height: auto;
+}
+.agent__agentpreviousbalcontainer h2 {
+  padding: 25px 0px;
+  color: rgb(175, 174, 174);
+}
+.showagentpreviousbal {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0px 25px;
+}
+
+.agent__agentpreviousbaltop {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.agent__agentpreviousbaltop h2 {
+  font-size: 18px;
+  color: white !important;
+}
+.agent__agentpreviousbaltop h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.agent__previous1 {
+  margin-left: 10px;
+}
+.agent__previous1 h2 {
+  color: #267ea7 !important;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.agent__previous1 span {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: white;
+}
+/* .agent__creditagentothers1 h2 {
+  color: #267ea7 !important;
+} */
+
+.agent__previousbalimg1 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(166, 230, 166);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agent__previousbalimg2 {
+  width: 50px;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: rgb(255, 221, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.agent__agentpreviousbaltopcontent1 {
+  width: 50%;
+  height: 150px;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7 !important;
+  padding: 10px 0px;
+}
+
+.agent__agentpreviousbaltopcontent2 {
+  padding: 10px 0px;
+  width: 40%;
+  height: 150px;
+  background-color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 40px; */
+  border-radius: 10px;
+  color: #267ea7 !important;
+  padding: 10px 0px;
+}

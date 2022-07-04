@@ -1,0 +1,65 @@
+/* MEDIA QUERY FOR SEVERAL SCREENS */
+/* MOBILE <= 600PX */
+@media screen and (max-width: 600px) {
+  .profile__image {
+    left: 37% !important;
+  }
+}
+/* TABLET <= 768PX */
+@media screen and (max-width: 768px) {
+}
+/* LAPTOP  <= 992PX */
+@media screen and (max-width: 992px) {
+}
+/* LARGE  <= 1200PX */
+@media screen and (max-width: 1200px) {
+}
+
+.profile__details {
+  background-color: #6c56f9;
+  height: 200px;
+  width: 100%;
+}
+
+.profile__image {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #6c56f9;
+  border-radius: 50%;
+  top: 10%;
+  left: 32%;
+  color: #fcfcfc;
+  border: 2px solid white;
+}
+.profile__image img {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 100%;
+  object-fit: cover !important;
+}
+.profile__id {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fcfcfc;
+  font-size: 12px;
+}
+.profile__info span {
+  font-size: 14px;
+}
+.profileSpan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 36px;
+  padding-top: 50px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}

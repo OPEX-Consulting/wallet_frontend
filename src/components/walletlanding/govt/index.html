@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wallet - Gov't Dashboard</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootsrtap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- all css -->
+    <link rel="stylesheet" href="css/all.css" />
+    <!-- flaticon css -->
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <!-- slick css -->
+    <link rel="stylesheet" href="css/slick.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style1.css" />
+    <!-- dark css -->
+    <link rel="stylesheet" href="css/dark-mode.css" />
+    <!-- responsive fonts -->
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- left-sidebar start -->
+    <aside>
+      <div class="left-sidebar">
+        <div class="logo-area">
+          <div class="main-logo">
+            <a href="index.html"
+              ><img src="images/logo-light.png" alt="images" style="width: 30%"
+            /></a>
+          </div>
+        </div>
+        <div class="sidebar-menu">
+          <ul>
+            <li class="active">
+              <a href="index.html">
+                <i class="flaticon-home"></i>
+                <span>Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="flaticon-money-transfer"></i>
+                <span>Transactions</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="flaticon-user"></i>
+                <span>Accounts</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="flaticon-economic-investment"></i>
+                <span>Investments</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="flaticon-credit-card"></i>
+                <span>Credit Cards</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="flaticon-loan"></i>
+                <span>Loans</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="flaticon-service"></i>
+                <span>Services</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="flaticon-econometrics"></i>
+                <span>My Privileges</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="flaticon-settings"></i>
+                <span>Setting</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+    <!-- left-sidebar end -->
+    <!-- top-bar start -->
+    <header>
+      <div class="top-area">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-3">
+              <div class="top-heading">
+                <h2>Lagos State Government</h2>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4">
+              <div class="search-bar">
+                <form action="dummy">
+                  <button><i class="flaticon-magnifying-glass"></i></button>
+                  <input type="text" placeholder="Search for something" />
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-5">
+              <div class="settings">
+                <a href="dummy">
+                  <i class="flaticon-settings-1"></i>
+                </a>
+              </div>
+              <div class="notofication">
+                <a href="dummy">
+                  <i class="flaticon-notification"></i>
+                </a>
+              </div>
+              <div class="profile">
+                <a href="dummy">
+                  <img src="images/profile.png" alt="images" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="toogle-bar">
+          <span id="toggle"><i class="fas fa-bars"></i></span>
+        </div>
+      </div>
+    </header>
+    <!-- top-bar end -->
+    <!-- main-content start -->
+    <div class="main-content">
+      <div class="account-content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="single-balance">
+                <div class="icon bg-one">
+                  <i class="flaticon-money-bag"></i>
+                </div>
+                <div class="text">
+                  <p>My Balance</p>
+                  <span>₦12,750,000</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="single-balance">
+                <div class="icon bg-two">
+                  <i class="flaticon-income"></i>
+                </div>
+                <div class="text">
+                  <p>Income</p>
+                  <span>₦5,600</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="single-balance">
+                <div class="icon bg-three">
+                  <i class="flaticon-medical"></i>
+                </div>
+                <div class="text">
+                  <p>Expense</p>
+                  <span>₦3,460</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="single-balance">
+                <div class="icon bg-four">
+                  <i class="flaticon-saving"></i>
+                </div>
+                <div class="text">
+                  <p>Total Saving</p>
+                  <span>₦7,920</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="heading">
+                <h2>Last Transaction</h2>
+              </div>
+              <div class="last-transection">
+                <div class="transection-table">
+                  <div class="table-responsive">
+                    <table>
+                      <tr>
+                        <td>
+                          <div class="transection-icon bg-four">
+                            <i class="flaticon-renew"></i>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="transection-name">
+                            <h5>Spotify Subscription</h5>
+                            <span>25 Jan 2021</span>
+                          </div>
+                        </td>
+                        <td>
+                          <p>Shopping</p>
+                        </td>
+                        <td>
+                          <p>1234 ****</p>
+                        </td>
+                        <td>
+                          <p>Pending</p>
+                        </td>
+                        <td>
+                          <div class="price">
+                            <span>-₦150</span>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="transection-icon bg-two">
+                            <i class="flaticon-settings-2"></i>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="transection-name">
+                            <h5>Mobile Service</h5>
+                            <span>25 Jan 2021</span>
+                          </div>
+                        </td>
+                        <td>
+                          <p>Service</p>
+                        </td>
+                        <td>
+                          <p>1234 ****</p>
+                        </td>
+                        <td>
+                          <p>Completed</p>
+                        </td>
+                        <td>
+                          <div class="price">
+                            <span>-₦340</span>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="transection-icon bg-three">
+                            <i class="flaticon-user-1"></i>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="transection-name">
+                            <h5>Emilly Wilson</h5>
+                            <span>25 Jan 2021</span>
+                          </div>
+                        </td>
+                        <td>
+                          <p>Transfer</p>
+                        </td>
+                        <td>
+                          <p>1234 ****</p>
+                        </td>
+                        <td>
+                          <p>Completed</p>
+                        </td>
+                        <td>
+                          <div class="price">
+                            <span style="color: #16dbaa">+₦780</span>
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-7">
+              <div class="heading">
+                <h2>My Cards</h2>
+                <a href="#">See All</a>
+              </div>
+              <div class="transection-card">
+                <div class="third-card">
+                  <div class="chip-area">
+                    <div class="balance">
+                      <p>Balance</p>
+                      <span>₦5,756</span>
+                    </div>
+                    <div class="chip-img">
+                      <img src="images/chip-img-1.png" alt="images" />
+                    </div>
+                  </div>
+                  <div class="holder">
+                    <div class="single-holder">
+                      <p>CARD HOLDER</p>
+                      <span>Eddy Cusuma</span>
+                    </div>
+                    <div class="single-holder">
+                      <p>VALID THRU</p>
+                      <span>12/22</span>
+                    </div>
+                  </div>
+                  <div class="card-number">
+                    <p>3778 **** **** 1234</p>
+                    <div class="master-img">
+                      <img src="images/master-img.png" alt="images" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="long-chart">
+                <div class="heading">
+                  <h2>Debit & Credit Overview</h2>
+                </div>
+                <div class="main-chart">
+                  <p>
+                    <span>₦7,560</span> Debited & <span>₦5,420</span> Credited
+                    in this Week
+                  </p>
+                  <div class="points">
+                    <div class="deposit">
+                      <span>Debit</span>
+                    </div>
+                    <div class="withdraw">
+                      <span>Credit</span>
+                    </div>
+                  </div>
+                  <div
+                    id="chartContainer"
+                    style="height: 250px; width: 100%"
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="invoice">
+                <div class="heading">
+                  <h2>Invoices Sent</h2>
+                </div>
+                <ul>
+                  <li>
+                    <div class="icon bg-four">
+                      <i class="flaticon-apple"></i>
+                    </div>
+                    <div class="name">
+                      <h5>Apple Store</h5>
+                      <span>5h ago</span>
+                    </div>
+                    <div class="price">
+                      <span>₦450</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="icon bg-one">
+                      <i class="flaticon-user-1"></i>
+                    </div>
+                    <div class="name">
+                      <h5>Apple Store</h5>
+                      <span>5h ago</span>
+                    </div>
+                    <div class="price">
+                      <span>₦450</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="icon bg-two">
+                      <i class="flaticon-playstation"></i>
+                    </div>
+                    <div class="name">
+                      <h5>Apple Store</h5>
+                      <span>5h ago</span>
+                    </div>
+                    <div class="price">
+                      <span>₦450</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="icon bg-three">
+                      <i class="flaticon-user-1"></i>
+                    </div>
+                    <div class="name">
+                      <h5>Apple Store</h5>
+                      <span>5h ago</span>
+                    </div>
+                    <div class="price">
+                      <span>₦450</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- main-content end -->
+
+    <!-- jquery js -->
+    <script src="js/jquery.js"></script>
+    <!-- bootstrap min js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- bootstrap.bundle js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- canvasjs js -->
+    <script src="js/jquery.canvasjs.min.js"></script>
+    <!-- slick js -->
+    <script src="js/slick.min.js"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
+    <script>
+      window.onload = function () {
+        //Better to construct options first and then pass it as a parameter
+        var options = {
+          dataPointWidth: 30,
+          axisX: {
+            gridColor: "transparent",
+            gridThickness: 1,
+            tickLength: 0, //tick height
+            lineThickness: 0,
+          },
+
+          axisY: {
+            gridColor: "transparent",
+            gridThickness: 1,
+            tickLength: 0,
+            lineThickness: 0,
+          },
+          data: [
+            {
+              type: "column",
+              color: "#4D78FF",
+              cornerRadius: 10,
+              dataPoints: [
+                { label: "Sat", y: 475 },
+                { label: "Sun", y: 350 },
+                { label: "Mon", y: 320 },
+                { label: "Tue", y: 450 },
+                { label: "Wed", y: 150 },
+                { label: "Thu", y: 380 },
+                { label: "Fri", y: 395 },
+              ],
+            },
+            {
+              type: "column",
+              color: "#FCAA0B",
+              cornerRadius: 10,
+              dataPoints: [
+                { label: "Sat", y: 240 },
+                { label: "Sun", y: 130 },
+                { label: "Mon", y: 260 },
+                { label: "Tue", y: 370 },
+                { label: "Wed", y: 240 },
+                { label: "Thu", y: 240 },
+                { label: "Fri", y: 350 },
+              ],
+            },
+          ],
+        };
+
+        "#chartContainer".CanvasJSChart(options);
+      };
+    </script>
+  </body>
+</html>
